@@ -1,0 +1,31 @@
+{
+    "disease_tag": "Pneumonia",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Chest tightness and shortness of breath",
+            "doctor": "In that case, do you have any Night sweats?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "In that case, do you have any Cough?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "In that case, do you have any Fever?"
+        },
+
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "What about Expectoration?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "In that case, you might be suffering from Pneumonia. Let me prescribe some antibiotics for you."
+        }
+
+    ]
+
+}

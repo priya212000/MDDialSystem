@@ -1,0 +1,43 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Chest tightness.",
+            "doctor": "What about Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well.",
+            "doctor": "What about Diarrhea?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well.",
+            "doctor": "Oh, do you have any Acid reflux?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+        {
+            "patient":"Hi Doctor, I am having Chest tightness.",
+            "doctor":"Hi, how long have you been experiencing this symptom?"
+        },
+        {
+            "patient":"For the past 2 days.",
+            "doctor":"Are you having any difficulty breathing?"
+        },
+        {
+            "patient":"No, I am not.",
+            "doctor":"Are you coughing up any blood?"
+        },
+        {
+            "patient":"No, I am not.",
+            "doctor":"Are you experiencing any pain in your chest?"
+        },
+        {
+            "patient":"No, I am not.",
+            "doctor":"Based on the information provided by the patient, it is likely that the patient is experiencing anxiety or stress."
+        }
+    ],
+    "issue":"GPT3 behvaior is not consistent. Sometime it does not ask any questions and directly gives a conclusion. Sometimes it asks more questions make it more aware of the specific disease patient could have."
+ }

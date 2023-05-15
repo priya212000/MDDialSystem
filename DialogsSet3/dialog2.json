@@ -1,0 +1,43 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Chest tightness.",
+            "doctor": "Oh, do you have any Expectoration?"
+        },
+        {
+            "patient": "Yes most of the times.",
+            "doctor": "What about Bloating?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "What about Acid reflux?"
+        },
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "What about Shortness of breath?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+        {
+            "patient":"Hi Doctor, I am having Chest tightness.",
+            "doctor":"Hi. How long have you been experiencing this chest tightness?"
+        },
+        {
+            "patient":"Since this morning.",
+            "doctor":"Are you having any other symptoms like coughing, wheezing, or trouble breathing?"
+        },
+        {
+            "patient":"Yes, I am having all of those symptoms as well.",
+            "doctor":"Based on the symptoms that you are describing, it is likely that you are suffering from asthma. I would recommend that you see a specialist for further treatment."
+        }
+    ],
+    "issue":"GPT3 asks if patient has multiple symptoms in a single prompt."
+ }

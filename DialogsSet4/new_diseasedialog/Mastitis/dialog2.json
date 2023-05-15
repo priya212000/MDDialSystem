@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Mastitis",
+    "dialogs": [
+        {
+            "patient": " I have been feeling Fatigue and Fever",
+            "doctor": "What about Cough?"
+        },
+        {
+            "patient": "No, I don't have that",
+            "doctor": "In that case, do you have any Incontinence?"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": " How about Nausea and Vomiting?"
+        },
+        {
+            "patient": "Yes, I have been feeling that for the past few days",
+            "doctor": "Based on the symptoms that you have mentioned, it is likely that you have Mastitis ."
+        }
+     ]
+}

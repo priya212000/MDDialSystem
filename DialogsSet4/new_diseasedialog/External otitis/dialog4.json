@@ -1,0 +1,25 @@
+{
+    "disease_tag": "External otitis",
+    "dialogs": [
+        {
+            "patient": "I have Hearing loss",
+            "doctor": "What about Tinnitus?"
+        },
+        {
+            "patient": "I dont think so",
+            "doctor": "Is it? Then do you experience Earache?"
+        },
+        {
+            "patient": "No, I don't experience earache",
+            "doctor": "Do you experience any drainage from your ear?"
+        },
+        {
+            "patient": "Do you mean discharge?",
+            "doctor": "Yes, do you experience any discharge from your ear?"
+        },
+        {
+            "patient": "Yes , I have discharge from my ear often.",
+            "doctor": "You may have external otitis. I recommend that you see a doctor to confirm the diagnosis and to discuss treatment options."
+        }
+     ]
+}

@@ -1,0 +1,39 @@
+
+
+{
+   "dialogs": [
+
+            {
+                "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+                "doctor": "Oh, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "What about Fatigue?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Thin?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "What about Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "In that case, you have Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "I have Hiccup",
+            "doctor": "There could be a few underlying causes of hiccups, so it's important to consult with a doctor to get an accurate diagnosis. Some potential causes include acid reflux, gastroesophageal reflux disease (GERD), a digestive tract infection, eating too quickly, or consuming spicy or carbonated beverages. If your hiccups are accompanied by other symptoms such as chest pain, difficulty breathing, or weight loss, it's important to seek medical attention right away as these could be signs of a more serious condition."		
+	}
+
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself. There is a long explanation given for an incorrect diagnosis which is not necessary."
+}

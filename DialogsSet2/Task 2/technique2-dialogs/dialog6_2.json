@@ -1,0 +1,60 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Hard to swallow, Doctor: ?",
+            "doctor": "Oh, do you have any Cough?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "What about Fever?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Chest tightness?"
+        },
+        {
+            "patient": "Yes most of the times, Doctor: ?",
+            "doctor": "Is it? Then do you experience Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes, Doctor: ?",
+            "doctor": "Oh, do you have any Feel sick and vomit?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": "I have been feeling hard to swallow.",
+            "doctor": "Let's think step by step. You are feeling hard to swallow. But do you feel sick or vomit?"
+        },
+
+        {
+            "patient": "Yes doctor, I am experiencing that sometimes.",
+            "doctor": "Let's think step by step. You are feeling hard to swallow, sick and vomit. Are you feeling any pain behind the breastbone?"
+        },
+
+        {
+            "patient": "Yes doctor, most of the times.",
+            "doctor": "Let's think step by step. You are feeling hard to swallow, sick, vomit, and pain behind the breastbone. Are you feeling any chest tightness?"
+        },
+
+        {
+            "patient": "Yes, I am experiencing that too doctor.",
+            "doctor": "Let's think step by step. You are feeling hard to swallow, sick, vomit, pain behind the breastbone, and chest tightness. Are you feeling feverish?"
+        },
+
+        {
+            "patient": "Not that I know of, doctor.",
+            "doctor": "Let's think step by step. You are feeling hard to swallow, sick, vomit, pain behind the breastbone, and chest tightness. Based on the symptoms that you are experiencing, it is likely that you have gastroesophageal reflux disease."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. This results in a wrong diagnosis",
+    "improvement": "GPT3 handles multiple symptoms in a single sentence and processes each one of them to go ahead and give a diagnosis. It even came up with asking the patient a new symptom on its own. But it came up with a final diagnoses of gastroesophageal reflux disease but did not diagnose Esophagitis."
+ }

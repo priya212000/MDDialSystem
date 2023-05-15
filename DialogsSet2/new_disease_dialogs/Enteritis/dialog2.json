@@ -1,0 +1,37 @@
+{
+    "disease_tag": "Entiritis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Decreased urine output and Cough",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "In that case, do you have any Tensile and heavy?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Is it? Then do you experience Mucus pus and blood in the stool?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "In that case, do you have any Fever?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Oh, do you have any Thirst?"
+        },
+
+        {
+            "patient": "Yes most of the times",
+            "doctor": "You could be suffering from Enteritis then."
+        }
+
+
+    ]
+
+}

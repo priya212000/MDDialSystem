@@ -1,0 +1,43 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Acid reflux and Burning sensation behind the breastbone, Doctor: ?",
+            "doctor": "In that case, do you have any Stomach ache?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Is it? Then do you experience Black stool?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "What about Hematemesis?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement": [
+        {
+            "patient": "I have been feeling Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "So you have acid reflux and burning sensation. Do you have any stomach ache?"
+        },
+
+        {
+            "patient": "Not that I know of.",
+            "doctor": "So you have acid reflux and burning sensation but no stomach ache. Do you experience Black stool?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "So you have acid reflux and burning sensation but no stomach ache or black stool. What about Hematemesis?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "So based on the symptoms that you are experiencing, it is likely that you have gastroesophageal reflux disease (GERD). I would recommend that you see a gastroenterologist for further evaluation and to discuss treatment options."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. But this time it also suggests other symptoms for the disease that it had diagnosed.",
+    "improvement": "GPT3 has taken into consideration all of the symptoms provided and then goes on to give a diagnosis after a holistic consideration when compared to the previous issue without prompting technique."
+}

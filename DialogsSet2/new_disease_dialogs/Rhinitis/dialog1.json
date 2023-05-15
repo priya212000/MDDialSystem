@@ -1,0 +1,34 @@
+{
+    "disease_tag": "Rhinitis",
+    "dialogs": [
+        {
+            "patient": "I have Stuffy nose",
+            "doctor": "Oh, do you have any Headache?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "In that case, do you have any Nose bleeding?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "What about Cough?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "Oh, do you have any Sneeze?"
+        },
+
+        {
+            "patient": "Yes most of the times",
+            "doctor": "You might be suffering from Rhinitis"
+        }
+
+
+
+
+    ]
+
+}

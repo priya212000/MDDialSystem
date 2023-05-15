@@ -1,0 +1,36 @@
+{
+    "disease_tag": "Entiritis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Vomiting.",
+            "doctor": "In that case, do you have any Cough?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Chest tightness and shortness of breath?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Oh, do you have any Sneeze?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "Is it? Then do you experience Chills?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Fever?"
+        },
+
+        {
+            "patient": "I don't think so",
+            "doctor": "In this case, the patient could have enteritis based on the symptoms of vomiting and abdominal pain."
+        }
+
+    ]
+
+}

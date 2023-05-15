@@ -1,0 +1,9 @@
+{
+    "disease_tag": "Thyroiditis",
+    "dialogs": [
+        {
+             "patient":"Hi Doctor, I am having Fever and Pain in front of neck",
+             "doctor":"Based on the symptoms that the patient is reporting, it is likely that the patient has thyroiditis."
+        }
+     ]
+}

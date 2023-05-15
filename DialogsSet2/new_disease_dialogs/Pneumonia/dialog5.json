@@ -1,0 +1,53 @@
+{
+    "disease_tag": "Pneumonia",
+    "dialogs": [
+        {
+            "patient": "Recently, I am experiencing Lumbago and Fever",
+            "doctor": "Is it? Then do you experience Twitch?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "In that case, do you have any Rash?"
+        },
+
+        {
+            "patient": "What about Suppuration?",
+            "doctor": "No, I never had anything like that"
+        },
+
+        {
+            "patient": "Is it? Then do you experience Cough?",
+            "doctor": "Oh, do you have any Fear of cold?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "I see. Do you have a family history of Asthma?"
+        },
+
+        {
+            "patient": "No, I don't think so",
+            "doctor": "Is it? Then do you experience Chills?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "Oh, do you have any Cyanosis?"
+        },
+
+        {
+            "patient": "What is that?",
+            "doctor": "It's a medical condition where your skin turns blue from lack of oxygen in the blood."
+        },
+
+        {
+            "patient": "No, I don't think so",
+            "doctor": "Well, based on the symptoms you're experiencing, it's possible that you have pneumonia. I recommend that you see a doctor as soon as possible for a proper diagnosis."
+        }
+
+
+
+    ]
+
+}

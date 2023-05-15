@@ -1,0 +1,17 @@
+{
+    "disease_tag": "Mastitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Breast tenderness",
+            "doctor": "In that case, do you have any Vomiting?"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "What about Fever?"
+        },
+        {
+            "patient": "No, I don't think I have a fever.",
+            "doctor": "Well, based on the symptoms you're describing, it's possible you could have mastitis. I recommend that you see a doctor as soon as possible to get checked out."
+        }
+     ]
+}

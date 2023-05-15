@@ -1,0 +1,52 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Hard to swallow, Doctor: ?",
+            "doctor": "Oh, do you have any Cough?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "What about Fever?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Chest tightness?"
+        },
+        {
+            "patient": "Yes most of the times, Doctor: ?",
+            "doctor": "Is it? Then do you experience Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes, Doctor: ?",
+            "doctor": "Oh, do you have any Feel sick and vomit?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": "I have been feeling hard to swallow.",
+            "doctor": "Do you have throat pain or cough?"
+        },
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "So you don't have throat pain or cough. Do you have any chest tightness?"
+        },
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "So you don't have throat pain or cough, but have chest tightness sometimes. Do you feel sick or feel like vomiting?"
+        },
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "So you don't have throat pain or cough, but have chest tightness sometimes. You also feel sick or feel like vomiting sometimes. Based on your symptoms, you may have a viral infection or the flu. I recommend that you get rest and drink plenty of fluids. If your symptoms persist, please see a doctor."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. This results in a wrong diagnosis",
+    "improvement": "GPT3 is able to handle multiple symptoms given in a single sentence. Also, it took into consideration all of the provided symptoms while giving a diagnosis that the patient has a viral infection or the flu"
+ }

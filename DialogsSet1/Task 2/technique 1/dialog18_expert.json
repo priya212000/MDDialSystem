@@ -1,0 +1,61 @@
+
+{
+   "dialogs": [
+
+            {
+                "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+                "doctor": "Oh, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "What about Fatigue?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Thin?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "What about Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "In that case, you have Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "I have Hiccup",
+            "doctor": "Hi, I'm Dr. House. I understand you've been having hiccups?"		
+	},
+    {
+            "patient": "Yes, for about a week now.",
+            "doctor": "Are they constant, or do they come and go?"		
+	},
+
+    {
+            "patient": "They come and go, but they're pretty constant throughout the day.",
+            "doctor": "Do you have any other symptoms?"		
+	},
+    {
+            "patient": "No, just the hiccups.",
+            "doctor": "Have you tried any home remedies?"		
+	},
+    {
+            "patient": "Yes, I've tried drinking water upside down, holding my breath, and drinking a glass of water while plugging my nose.",
+            "doctor": "Are you still having hiccups?"		
+	},
+    {
+            "patient": "Yes.",
+            "doctor": "I think you may have a condition called 'Chronic Hiccups'. I recommend you see a specialist to confirm the diagnosis and discuss treatment options.?"		
+	}
+
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself. There is a long explanation given for an incorrect diagnosis which is not necessary.",
+
+    "improvement": "The GPT-3 not only asks a lot of relevant questions, but also considers symptoms which are relevant to whatever is mentioned by the patient."
+}

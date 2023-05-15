@@ -1,0 +1,14 @@
+{
+    "technique_1": 
+    {
+      "explaination": "Multimodal reasoning via thought chains is used as reference. GPT3 is given direction by asking it to answer the question and also by giving it context on how to reach the answer for the question.",
+      "referece_papers": "https://arxiv.org/pdf/2209.09513.pdf"
+    },
+    "technique_2": {
+      "explaination": "A modification of few shot and reinforcement learning is being implemented here where GPT3 is first questioned about the symptoms of the disease and then a few example conversations are given.",
+      "referece_papers":  [
+        "https://ai.stanford.edu/blog/in-context-learning/",
+        "https://dl.acm.org/doi/pdf/10.1145/3477495.3531714"
+      ]
+    }
+  }

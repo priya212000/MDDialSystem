@@ -1,0 +1,49 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "I have been feeling Acid reflux and Cough, Doctor: ?",
+            "doctor": "In that case, do you have any Vomiting?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "What about Nausea?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Fever?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Oh, do you have any Stomach ache?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "This could probably be Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+       {
+          "patient":" I have been feeling Acid reflux and Cough.",
+          "doctor":"Are you experiencing any pain in your chest or throat?"
+       },
+       {
+          "patient":" I am experiencing that sometimes.",
+          "doctor":"Do you have any trouble swallowing?"
+       },
+       {
+          "patient":" No, I don't think so.",
+          "doctor":"Do you have a hoarse voice?"
+       },
+       {
+        "patient":" No, doctor.",
+        "doctor":"It is possible that you have GERD (Gastroesophageal Reflux Disease). I would suggest you to take an antacid and see if it improves your symptoms. If your symptoms persist, please consult a gastroenterologist for further evaluation."
+        }
+    ],
+    "issue":"GPT3 give the diagnosis just after the first prompt without asking specific questions",
+    "improvement": "GPT3 asks multiple question related to the patient's answers but gives out the wrong diagnosis."
+ }
+ 

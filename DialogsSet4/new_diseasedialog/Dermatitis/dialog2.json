@@ -1,0 +1,17 @@
+{
+    "disease_tag": "Dermatitis",
+    "dialogs": [
+        {
+            "patient": "Recently, I am experiencing Papule and Congestion of skin and mucous membranes",
+            "doctor": "Oh, do you have any Fear of cold?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "Then do you experience dry skin?"
+        },
+        {
+            "patient": "Yes, frequently.",
+            "doctor": "Based on the symptoms that you have presented, it is likely that you have Dermatitis."
+        }
+     ]
+}

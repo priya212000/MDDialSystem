@@ -1,0 +1,30 @@
+{
+    "disease_tag": "Asthma",
+    "dialogs": [
+
+        {
+            "patient": "I have Shortness of breath",
+            "doctor": "Is it? Then do you experience Diarrhea?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Is it? Then do you experience Fever?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Is it? Then do you experience Vomiting?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Then it is most likely that you have Asthma."
+        }
+
+
+
+    
+    ]
+
+}

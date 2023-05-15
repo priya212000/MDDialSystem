@@ -1,0 +1,29 @@
+{
+    "disease_tag": "Mastitis",
+    "dialogs": [
+        {
+            "patient": "I have pain in my breast",
+            "doctor": "Do you have diarrhea?"
+        },
+        {
+            "patient": "Sometimes doctor",
+            "doctor": "What about pain in the breast bone?"
+        },
+        {
+            "patient": "No",
+            "doctor": "Are both breasts affected?"
+        },
+        {
+            "patient": "No, just the right one",
+            "doctor": "Do you have a fever?"
+        },
+        {
+            "patient": "No",
+            "doctor": "Have you been pregnant or breastfeeding in the past six months?"
+        },
+        {
+            "patient": "No, just the right one",
+            "doctor": ": Based on the symptoms that you are experiencing, it is unlikely that you have mastitis. However, I would recommend that you consult with a breast specialist to be sure."
+        }
+     ]
+}

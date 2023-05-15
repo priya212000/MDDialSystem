@@ -1,0 +1,52 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Chest tightness.",
+            "doctor": "Oh, do you have any Expectoration?"
+        },
+        {
+            "patient": "Yes most of the times.",
+            "doctor": "What about Bloating?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "What about Acid reflux?"
+        },
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "What about Shortness of breath?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": "Hi Doctor, I am having Chest tightness.",
+            "doctor": "Do you have any difficulty in swallowing?"
+        },
+        {
+            "patient": "No, not really.",
+            "doctor": "Well, then do you have any pain in the breast?"
+        },
+        {
+            "patient": "No, nothing like that.",
+            "doctor": "Are you sure? What about an acid reflux?"
+        },
+        {
+            "patient": "No, I don't think so. I never really had any problems with that.",
+            "doctor": "Okay then, do you have any stomach ache?"
+        },
+        {
+            "patient": "Yes, I occasionally, have stomach pain.",
+            "doctor": "Well, this means you might have Esophagitis."
+        }
+    ],
+    "issue": "GPT-3 does not seem to have any issues with the diagnosis.",
+    "improvement": "GPT3 is now able to question more precisely around the symptoms that a possible disease might have. In the above example, GPT-3 asks the patient if they have symptoms which are related to a disease that could have chest tightness as a symptom and thereby ends up making the right diagnosis."
+ }

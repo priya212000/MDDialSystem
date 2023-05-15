@@ -1,0 +1,42 @@
+
+{
+   "dialogs": [
+            {
+                "patient": "I have been feeling Pain behind the breastbone, Doctor: ?",
+                "doctor": "Is it? Then do you experience Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I don't have that, Doctor: ?",
+                "doctor": "What about Chest tightness?"
+            },
+            {
+                "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+                "doctor": "Is it? Then do you experience Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes most of the times, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "I have been feeling Pain behind the breastbone",
+            "doctor": "What type of pain are you experiencing? Is it sharp, dull, or throbbing?"
+        },
+        {
+            "patient": "It's a dull pain that comes and goes.",
+            "doctor": "Does the pain get worse when you move around or take deep breaths?"
+        },
+        {
+	        "patient": "It gets worse when I move around or take deep breaths.",
+            "doctor": "Based on the symptoms you've described, it's possible that you're experiencing pain from acid reflux. I recommend that you see a doctor to get further testing to confirm the diagnosis."
+		
+        }
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself.",
+  "improvement": "The GPT-3 doesn't just randomly diagnose the disease and actually asks relevant questions and also comes up with a diagnosis only after considering all the symptoms."
+}

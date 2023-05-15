@@ -1,0 +1,33 @@
+{
+    "disease_tag": "Dermatitis",
+    "dialogs": [
+        {
+            "patient": "Hi doctor, I am having itching.",
+            "doctor": "The symptom of itching could be caused by a number of conditions, including dermatitis, external otitis, conjunctivitis, or mastitis. To determine the cause of the itching, I would need to ask the patient additional questions and possibly examine the affected area."
+        },
+        {
+            "patient": "Ok, you can ask me additional questions.",
+            "doctor": "When did the itching start?"
+        },
+        {
+            "patient": "About a week ago.",
+            "doctor": "Is the itching localized to one area or does it affect the entire body?"
+        },
+        {
+            "patient": " It's localized to my right arm.",
+            "doctor": "Is the skin on the arm dry, cracked, or scaly?"
+        },
+        {
+            "patient": " No, it's not dry or cracked, but it is a little scaly.",
+            "doctor": "Is the arm swollen or red?"
+        },
+        {
+            "patient": "No, it's not swollen, but it is a little red.",
+            "doctor": "Do you have any other symptoms, such as fever, fatigue, or weight loss?"
+        },
+        {
+            "patient": "No, I don't have any other symptoms.",
+            "doctor": "Based on the symptoms, it is likely that the patient has dermatitis."
+        }
+     ]
+}

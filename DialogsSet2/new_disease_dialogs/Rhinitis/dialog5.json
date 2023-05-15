@@ -1,0 +1,28 @@
+{
+    "disease_tag": "Rhinitis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Headache and Stuffy nose",
+            "doctor": "What about Nose bleeding?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Sneeze?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "What about Runny nose?"
+        },
+
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "Based on the symptoms, it is likely that the patient has Rhinitis."
+        }
+
+
+
+    ]
+
+}

@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Traumatic brain injury",
+    "dialogs": [
+        {
+            "patient": "Recently, I am experiencing dizziness and vomitng",
+            "doctor": "Oh, do you have any Unconsciousness?"
+        },
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Any trouble concentrating or memory problems?"
+        },
+        {
+            "patient": "Yes, I've been having trouble concentrating and I've been forgetting things more often.",
+            "doctor": "Any changes in your speech?"
+        },
+        {
+            "patient": "Yes, my speech has been slurred and I've been having trouble forming words.",
+            "doctor": "It is possible that the patient could be suffering from a traumatic brain injury. This is because dizziness and vomiting are common symptoms of a TBI."
+        }
+     ]
+}

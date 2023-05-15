@@ -1,0 +1,44 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+            "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Diarrhea?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "What about Pharynx discomfort?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": "Hi Doctor, I am having Acid reflux.",
+            "doctor": " Do you have any other symptoms?"
+        },
+
+        {
+            "patient": "I am experiencing pharynx discomfort sometimes.",
+            "doctor": " Do you have any other symptoms?"
+        },
+
+        {
+            "patient":"Well not in my knowledge.",
+            "doctor": "Based on the symptoms you have provided, it is likely that you have GERD (Gastroesophageal Reflux Disease). I suggest you to consult a gastroenterologist for further evaluation."
+        }
+
+    ],
+    "issue":"GPT3 gives recommendations on how to treat the symptom given in the first prompt instead of diagnosing the disease.",
+    "improvement": "GPT3 has diagonised a disease after asking a few questions."
+ }
+ 

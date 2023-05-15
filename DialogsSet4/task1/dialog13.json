@@ -1,0 +1,39 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+            "doctor": "What about Bloating?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "In that case, do you have any Diarrhea?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "Is it? Then do you experience Nausea?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+       {
+            "patient":"Hi Doctor, I am having Acid reflux.",
+            "doctor":"There are many potential causes of acid reflux, so I will need to ask you a few more questions in order to make a diagnosis. Are you experiencing any heartburn? What other symptoms are you experiencing? Have you made any changes to your diet or lifestyle recently?"
+       },
+       {
+            "patient":"I do feel nausea",
+            "doctor":"Nausea is a common symptom of acid reflux. Are you also experiencing any vomiting or abdominal pain? Have you been experiencing these symptoms for a long time or are they new?"
+        },
+        {
+            "patient":"I have'nt experienced  vomiting or abdominal pain. ",
+            "doctor":"It's difficult to say definitively what is causing your symptoms without further information. It is possible that you are experiencing acid reflux, but it is also possible that you have a different condition. I recommend that you see a gastroenterologist for further testing and diagnosis."
+        }
+    ],
+    "issue":"GPT3 asks a few questions and finally asks the patient to consult with another doctor instead of diagnosis of the disease."
+ }

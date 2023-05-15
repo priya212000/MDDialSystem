@@ -1,0 +1,48 @@
+{
+   
+"dialogs": [
+             "dialogs": [
+           {
+                "patient": "Recently, I am experiencing Pain behind the breastbone, Doctor: ?",
+                "doctor": "Oh, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I don't have that, Doctor: ?",
+                "doctor": "What about Hematemesis?"
+            },
+            {
+                "patient": "Not that I know of, Doctor: ?",
+                "doctor": "Is it? Then do you experience Nausea?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "Is it? Then do you experience Black stool?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "In that case, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+        ]
+        
+    ,"gpt3_output": [
+        {
+            "patient": "Recently, I am experiencing Pain behind the breastbone.",
+            "doctor": "How long have you been experiencing this pain? Does it come and go intermittently or is it constant? Does the pain worsen when you eat or drink hot or cold beverages? Does it radiate anywhere else, such as your back or shoulders? Do you experience any other symptoms such as nausea, vomiting, or shortness of breath?"
+        },
+        {
+            "patient": "The pain has been present for about two weeks. It is constant and does not seem to be affected by hot or cold beverages. It does not radiate anywhere else. I have also been experiencing nausea and vomiting.
+",
+            "doctor": "ased on your symptoms, it is likely that you are suffering from gastroesophageal reflux disease (GERD). This is a condition where stomach acid backs up into the esophagus, causing a burning sensation in the chest. I would recommend that you see your doctor to confirm the diagnosis and discuss treatment options."
+        
+        }
+
+
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself.",
+  "improvement": "The GPT-3 doesn't just randomly diagnose the disease and actually asks relevant questions and also comes up with a diagnosis only after considering all the symptoms. The questions are also very specific and covers up a lot of information at once"
+}

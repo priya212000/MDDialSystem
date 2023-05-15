@@ -1,0 +1,53 @@
+{
+    "disease_tag": "Coronary heart disease",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Chest tightness and Palpitations",
+            "doctor": "What about Frequent urination?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Urgency?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Are you experiencing Shortness of breath?"
+        },
+
+        {
+            "patient": "Yes, I am.",
+            "doctor": "Are you having Fatigue?"
+        },
+
+        {
+            "patient": "Yes",
+            "doctor": "Are you having light headedness?"
+        },
+
+        {
+            "patient": "Yes",
+            "doctor": "Are you having difficulty breathing?"
+        },
+
+        {
+            "patient": "Yes",
+            "doctor": "Are you feeling nauseatic?"
+        },
+
+        {
+            "patient": "Yes",
+            "doctor": "Are you having any swelling in the legs?"
+        },
+
+        {
+            "patient": "Yes Doctor",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is likely that the patient has coronary heart disease."
+        }
+
+
+
+    ]
+
+}

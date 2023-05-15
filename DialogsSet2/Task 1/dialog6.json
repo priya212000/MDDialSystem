@@ -1,0 +1,39 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Hard to swallow, Doctor: ?",
+            "doctor": "Oh, do you have any Cough?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "What about Fever?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Chest tightness?"
+        },
+        {
+            "patient": "Yes most of the times, Doctor: ?",
+            "doctor": "Is it? Then do you experience Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes, Doctor: ?",
+            "doctor": "Oh, do you have any Feel sick and vomit?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output": [
+        {
+            "patient": "I have been feeling Hard to swallow. ",
+            "doctor": "The patient might have dysphagia."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. This results in a wrong diagnosis"
+}

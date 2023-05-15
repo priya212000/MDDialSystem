@@ -1,0 +1,31 @@
+{
+    "disease_tag": "Rhinitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Expectoration and Runny nose",
+            "doctor": "What about Pharynx discomfort?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "What about Fever?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "In that case, do you have any Dizziness"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "Oh, do you have any Headache?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Then you could be suffering from Rhinitis"
+        }
+
+    ]
+
+}

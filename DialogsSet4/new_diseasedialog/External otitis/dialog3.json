@@ -1,0 +1,25 @@
+{
+    "disease_tag": "External otitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am not able to heat properly.",
+            "doctor": "What about headache?"
+        },
+        {
+            "patient": "I get that because of stress",
+            "doctor": "What about Fever?"
+        },
+        {
+            "patient": "No , I don't have fever.",
+            "doctor": "What are all the symptoms you are experiencing?"
+        },
+        {
+            "patient": "I have ear pain and malaise.",
+            "doctor": "Are you experiencing any flu-like symptoms?"
+        },
+        {
+            "patient": "No, I don't have any flu-like symptoms.",
+            "doctor": "You may have external otitis."
+        }
+     ]
+}

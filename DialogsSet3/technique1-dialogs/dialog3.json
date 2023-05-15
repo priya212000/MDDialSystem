@@ -1,0 +1,20 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "I have Nausea and Diarrhea.",
+            "doctor": "Ok, this means you might be having Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient":"I have Nausea and Diarrhea",
+            "doctor":"What about Stomach pain?"
+        },
+        {
+            "patient":"Yes, I have mild stomach pain.",
+            "doctor":"This means you could have gastroenteritis."
+        }
+    ],
+    "issue":"Though GPT3 does id now able to correctly relate Nausea, Diarrhea and Stomach ache as symtoms of gastroenteritis, it has deviated from the original diagnosis which says that patient has Esophagitis.",
+    "improvement": "GPT3 is able to handle multiple symptoms given in a single sentence. Also, it further enquire about other symptoms while making a decision that the patient has gastroenteritis"
+ }

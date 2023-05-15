@@ -1,0 +1,54 @@
+{
+    "disease_tag": "Coronary heart disease",
+    "dialogs": [
+        {
+            "patient": "I have Bloating",
+            "doctor": "What about Fever?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "Oh, do you have any Chest tightness?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "What about Fatigue?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "What about  chest pain?"
+        },
+
+        {
+            "patient":" Yes, I get that doctor.",
+            "doctor": "What about fatigue?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "What about coughing?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "What about difficulty breathing?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "Based on the symptoms that you are experiencing, it is likely that you have Asthma."
+        }
+
+
+
+
+    ]
+
+}

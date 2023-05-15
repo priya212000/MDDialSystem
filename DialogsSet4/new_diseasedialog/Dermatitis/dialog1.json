@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Dermatitis",
+    "dialogs": [
+        {
+            "patient": "I have Rash and Itching",
+            "doctor": "What about scaly skin?"
+        },
+        {
+            "patient": "Yes, that too.",
+            "doctor": "Do you have fever"
+        },
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "Do you have any other symptoms?"
+        },
+        {
+            "patient": "No, just these two.",
+            "doctor": "Based on the symptoms, the patient could have Dermatitis."
+        }
+     ]
+}

@@ -1,0 +1,42 @@
+
+
+{
+   "dialogs": [
+
+            {
+                "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+                "doctor": "Oh, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "What about Fatigue?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Thin?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "What about Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "In that case, you have Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "Hi Doctor, I am having Acid reflux",
+            "doctor": "What are your symptoms?"},
+{
+	        "patient": "Burning sensation behind the breastbone ",
+            "doctor": "Based on your symptoms, you might be suffering from gastroesophageal reflux disease (GERD). I recommend that you see a specialist for further evaluation and treatment."
+		
+        }
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself. This results in incorrect diagnosis."
+}

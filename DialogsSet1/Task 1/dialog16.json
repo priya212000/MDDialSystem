@@ -1,0 +1,37 @@
+
+
+{
+   "dialogs": [
+            {
+                "patient": "I have been feeling Pain behind the breastbone, Doctor: ?",
+                "doctor": "Is it? Then do you experience Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I don't have that, Doctor: ?",
+                "doctor": "What about Chest tightness?"
+            },
+            {
+                "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+                "doctor": "Is it? Then do you experience Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes most of the times, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "I have been feeling Pain behind the breastbone",
+            "doctor": "Any other symptoms?"},
+{
+	        "patient": "Well not in my knowledge",
+            "doctor": "The possible disease the patient might have is GERD (Gastroesophageal reflux disease)."
+		
+        }
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself."
+}

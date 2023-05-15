@@ -1,0 +1,25 @@
+{
+    "disease_tag": "Traumatic brain injury",
+    "dialogs": [
+        {
+            "patient": "I have Stomach ache",
+            "doctor": "What about Nausea?"
+        },
+        {
+            "patient": "I have been having a lot of nausea and vomiting recently. ask me more questions",
+            "doctor": "What is the nature of your stomach pain? Is it sharp, dull, or cramping? "
+        },
+        {
+            "patient": "I have sharp stomach pain.",
+            "doctor": "How are your sleep patterns?"
+        },
+        {
+            "patient": "I have trouble with sleeping and my sleep pattern is not constant.",
+            "doctor": "Do you have any other symptoms?"
+        },
+        {
+            "patient": "I have light senstivity.",
+            "doctor": "You may be experiencing symptoms of gastroenteritis, which is an inflammation of the stomach and intestines. Other symptoms include diarrhea, fever, and abdominal cramps. I recommend that you see a doctor for further evaluation and treatment."
+        }
+     ]
+}

@@ -1,0 +1,17 @@
+{
+    "disease_tag": "Conjunctivitis",
+    "dialogs": [
+        {
+            "patient": "I have Itchy and uncomfortable eyes and cold",
+            "doctor": "What about fever?"
+        },
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Then do you experience Photophobia?"
+        },
+        {
+            "patient": "Yes, I have trouble with bright lights.",
+            "doctor": "You might have conjunctivitis."
+        }
+     ]
+}

@@ -1,0 +1,27 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Acid reflux and Burning sensation behind the breastbone, Doctor: ?",
+            "doctor": "In that case, do you have any Stomach ache?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Is it? Then do you experience Black stool?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "What about Hematemesis?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output": [
+        {
+            "patient": "I have been feeling Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "acid reflux and burning sensation behind the breastbone are both symptoms of gastroesophageal reflux disease (GERD). GERD is a condition in which stomach acid or other stomach contents flow back up into the esophagus, the tube that carries food from the mouth to the stomach. This can cause heartburn, chest pain, and other symptoms."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. But this time it also suggests other symptoms for the disease that it had diagnosed."
+}

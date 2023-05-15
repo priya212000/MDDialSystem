@@ -1,0 +1,51 @@
+{
+   "dialogs": [
+
+            {
+                "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+                "doctor": "Oh, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "What about Fatigue?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Thin?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "What about Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "In that case, you have Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "Hi Doctor, I am having Acid reflux",
+            "doctor": "What other symptoms have you been experiencing?"
+        },
+        {
+            "patient": "I've been having a lot of trouble swallowing, and my chest has been hurting a lot too.",
+            "doctor": "Do you have any pain in your throat?"
+        },
+        {
+	        "patient": "Yes, a lot of pain.",
+            "doctor": "Do you have any pain when you breathe?"
+		
+        },
+        {
+	        "patient": "No.",
+            "doctor": "Based on the symptoms that you have given me, I believe that you might have esophageal cancer. I recommend that you see a specialist as soon as possible for further testing."
+		
+        }
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself. This results in incorrect diagnosis.",
+    "improvement": "The GPT-3 not only asks a lot of relevant questions, but also considers symptoms which are relevant to whatever is mentioned by the patient."
+}

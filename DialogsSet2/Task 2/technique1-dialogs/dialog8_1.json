@@ -1,0 +1,37 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Burning sensation behind the breastbone and Bloating, Doctor: ?",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement": [
+        {
+            "patient": "I have been feeling Burning sensation behind the breastbone and Bloating.",
+            "doctor": "Do you have acid reflux?"
+        },
+        {
+            "patient": "Yes, sometimes..",
+            "doctor": "So you have acid reflux. Do you have any other symptoms?"
+        },
+        {
+            "patient": "Not that I know of..",
+            "doctor": "Well, the burning sensation and bloating are the most common symptoms of acid reflux. Are you taking any medication for it?"
+        },
+        {
+            "patient": "Yes, I am taking omeprazole.",
+            "doctor": "Okay, that's good. Are you still experiencing the symptoms?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "Have you been making any lifestyle changes, such as eating smaller meals or avoiding certain foods?"
+        },
+        {
+            "patient": "Yes, I have been avoiding spicy and fatty foods.",
+            "doctor": "That's good. Sometimes lifestyle changes and medication are all that is needed to control acid reflux. If you are still having symptoms, you may need a higher dose of medication or you may need to see a specialist."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. ",
+    "improvement": "GPT3 takes into consideration all of the symptoms provided and then goes on to even ask what medication the patient is on, and advises that these are symptoms of lifestyle changes and prescribes higher dose of medication."
+
+}

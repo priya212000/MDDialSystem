@@ -1,0 +1,31 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Pharynx discomfort and Hemoptysis",
+            "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "In that case, do you have any Hard to swallow?"
+        },
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Is it? Then do you experience Hoarse?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "Oh, do you have any Palpitations?"
+        },
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient":"Hi Doctor, I am having Pharynx discomfort and Hemoptysis.",
+            "doctor":"Based on the symptoms you are describing, it is possible that you could have a respiratory infection or a bronchial obstruction. I would recommend that you see a specialist for further testing to determine the cause of your symptoms."
+        }
+    ],
+    "issue":"GPT-3 does not ask questions regarding the symptoms and directly jumps to make a prediction on the disease that patient might have. Also, since the model does not have much insight on what symptoms the patient has, it ends up giving inconclusive diagnosis by giving multiple possible diseases."
+ }

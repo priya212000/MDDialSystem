@@ -1,0 +1,31 @@
+{
+    "original_dialogue":[
+       {
+          "patient":"Recently, I am experiencing Burning sensation behind the breastbone",
+          "doctor":"What about Nausea?"
+       },
+       {
+          "patient":"No, I never had anything like that.",
+          "doctor":"Is it? Then do you experience Acid reflux?"
+       },
+       {
+          "patient":"Well not in my knowledge",
+          "doctor":"Oh, do you have any Stomach ache?"
+       },
+       {
+          "patient":"Yes, sometimes",
+          "doctor":"Ok, this means you might be having Esophagitis."
+       }
+    ],
+    "gpt3_output":[
+       {
+          "patient":"Recently, I am experiencing Burning sensation behind the breastbone.",
+          "doctor":"What are the other symptoms that you are experiencing?"
+       },
+       {
+          "patient":"I am also having trouble swallowing and my throat feels sore.",
+          "doctor":"Based on the symptoms that you are experiencing, it is likely that you have GERD (Gastroesophageal Reflux Disease)."
+       }
+    ],
+    "issue":"GPT3 does not ask specific questions (or) directly gives the diagnosis after the first prompt."
+ }

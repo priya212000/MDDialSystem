@@ -1,0 +1,17 @@
+{
+    "disease_tag": "External otitis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Ear itching",
+            "doctor": "What about Tinnitus?"
+        },
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Oh, do you have any Fever?"
+        },
+        {
+            "patient": "No",
+            "doctor": "It could be External otitis then."
+        }
+     ]
+}

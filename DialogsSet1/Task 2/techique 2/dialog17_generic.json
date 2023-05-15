@@ -1,0 +1,58 @@
+{
+   
+"dialogs": [
+             {
+                "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+                "doctor": "Oh, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "What about Fatigue?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "In that case, do you have any Thin?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "What about Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "In that case, you have Esophagitis."
+            }
+        ]
+        
+    ,"gpt3_output": [
+        {
+            "patient": "Hi Doctor, I am having Acid reflux.",
+            "doctor": "Hi there. Can you tell me when did you first experience this symptom? "
+        },
+        {
+            "patient": "It started a few weeks ago.",
+            "doctor": "How often do you experience this symptom? "
+        
+        }  
+        {
+            "patient": "It happens several times a day.",
+            "doctor": "Does it affect your appetite?"
+        
+        }  
+        {
+            "patient": "Yes, I have been having difficulty eating.",
+            "doctor": " Are there any other symptoms you experience in conjunction with the acid reflux?"
+        
+        }  
+        {
+            "patient": "Yes, I often experience chest pain and a burning sensation in my throat. ",
+            "doctor": "Based on your symptoms, it appears that you may have Gastroesophageal Reflux Disease (GERD). I would recommend that you see a Gastroenterologist for further testing."
+        
+        }  
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself.",
+  "improvement": "The GPT-3 doesn't just randomly diagnose the disease and actually asks relevant questions and also comes up with a diagnosis only after considering all the symptoms. The questions are also very specific and covers up a lot of information at once"
+}

@@ -1,0 +1,17 @@
+{
+    "disease_tag": "Conjunctivitis",
+    "dialogs": [
+        {
+            "patient": "I have Eye pain",
+            "doctor": "Is it? Then do you experience Vision loss?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "Does your eye tear up?"
+        },
+        {
+            "patient": "Yes , most of the time.",
+            "doctor": "You could have conjunctivitis, which is an inflammation of the eye. Other symptoms include redness, watery eyes, discharge, and swelling."
+        }
+     ]
+}

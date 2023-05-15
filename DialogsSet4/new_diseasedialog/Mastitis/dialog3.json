@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Mastitis",
+    "dialogs": [
+        {
+            "patient": "I have fever doctor.",
+            "doctor": "Is it? Do your have nausea?"
+        },
+        {
+            "patient": "Yes, I had it once.",
+            "doctor": "Any flu symptoms?"
+        },
+        {
+            "patient": "No doctor.",
+            "doctor": "Okay. Do you have a headache?"
+        },
+        {
+            "patient": "No, I don't think so.",
+            "doctor": "You might have a viral infection"
+        }
+     ]
+}

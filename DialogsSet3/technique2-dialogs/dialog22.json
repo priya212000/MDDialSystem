@@ -1,0 +1,36 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Recently, I am experiencing Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "Is it? Then do you experience Hard to swallow?"
+        },
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "What about Pharynx discomfort?"
+        },
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+        {
+            "patient": "Recently, I am experiencing Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "What about Nausea?"
+        },
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "No, not really.",
+            "doctor": "Oh, do you have any Difficulty swallowing?"
+        },
+        {
+            "patient": "Yes, sometimes it is hard to swallow.",
+            "doctor": "Ok, this means you might be having Esophagitis."
+        }
+    ],
+    "issue": "GPT-3 does not seem to have any issues with the diagnosis.",
+    "improvement": "GPT3 is now able to question more precisely around the symptoms that a possible disease might have. In the above example, GPT-3 asks the patient if they have symptoms which are related to a disease that could have acid reflux as a symptom and thereby ends up making the right diagnosis."
+}

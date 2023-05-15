@@ -1,0 +1,23 @@
+{
+    "disease_tag": "Pneumonia",
+    "dialogs": [
+        {
+            "patient": "Recently, I am experiencing Pharynx discomfort and Cough",
+            "doctor": "Oh, do you have any Poor spirits?"
+        },
+
+        {
+            "patient": "Yes most of the times",
+            "doctor": "Oh, do you have any Fever?"
+        },
+
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "Well, you could have a Pneumonia. Let me give you a prescription for some antibiotics."
+        }
+
+
+
+    ]
+
+}

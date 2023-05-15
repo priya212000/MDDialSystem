@@ -1,0 +1,15 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Thirst and Bitter, Doctor: ?",
+            "doctor": "Ok, this means you might be having Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+       {
+          "patient":"Hi Doctor, I am having Thirst and Bitter.",
+          "doctor":"Well, based on the symptoms you're describing, it's possible that you could have diabetes. When you have diabetes, your body isn't able to properly process glucose, which can lead to increased thirst and a bitter taste in your mouth. I recommend that you schedule an appointment with your primary care physician so that they can run some tests to confirm whether or not you have diabetes."
+       }
+    ],
+    "issue":"GPT3 diagnosis the wrong disease without asking multiple questions."
+ }

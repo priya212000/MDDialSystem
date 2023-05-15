@@ -1,0 +1,14 @@
+{
+    "technique_1": {
+      "explaination": "This technique is from the Least-to-Most prompting technique. It is implemented through two stage prompting: reducing a complex problem into a list of subproblems, and then sequentially solving these subproblems, whereby solving a given subproblem is facilitated by the answers to previously solved subproblems.",
+      "referece_papers": [
+        "https://arxiv.org/pdf/2205.10625.pdf"
+      ]
+    },
+    "technique_2": {
+      "explaination": "This technique is from the Automatic Chain-of-Thought (Auto-CoT) prompting technique, It samples questions with diversity and generates reasoning chains to construct demonstrations.",
+      "referece_papers": [
+        "https://arxiv.org/pdf/2210.03493.pdf"
+      ]
+    }
+}

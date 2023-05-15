@@ -1,0 +1,50 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Acid reflux, Doctor: ?",
+            "doctor": "What about Bloating?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "In that case, do you have any Diarrhea?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "Is it? Then do you experience Nausea?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+    {
+        "patient": "Hi Doctor, I am having Acid reflux.",
+        "doctor": "What about Bloating?"
+    },
+    {
+        "patient": "Well not in my knowledge.",
+        "doctor": "In that case, do you have any Diarrhea?"
+    },
+    {
+        "patient": "No, I never had anything like that.",
+        "doctor": "When did you first start having Acid reflux?"
+    },
+    {
+        "patient": " Two days back.",
+        "doctor": "Are you having any pain while swallowing?"
+    },
+    {
+        "patient": "Yes, I am.",
+        "doctor": "Based on the symptoms that you are describing, you may have Esophagitis. I would recommend that you see a specialist for further testing and treatment."
+    }
+
+    ],
+    "issue":"GPT3 asks a few questions and finally asks the patient to consult with another doctor instead of diagnosis of the disease.",
+    "improvement": "GPT3 asks specific questions based on the answers given by the patient and gives the correct diagnosis."
+ }
+ 

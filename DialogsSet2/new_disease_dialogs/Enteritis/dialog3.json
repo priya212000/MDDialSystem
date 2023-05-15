@@ -1,0 +1,38 @@
+{
+    "disease_tag": "Entiritis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Diarrhea",
+            "doctor": "In that case, do you have any Fever?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Vomiting?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Oh, do you have any Fear of cold?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+
+        {
+            "patient": "Yes most of the times",
+            "doctor": "I see. And what about Headache?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Well, it seems like you have Enteritis."
+        }
+
+
+
+    ]
+
+}

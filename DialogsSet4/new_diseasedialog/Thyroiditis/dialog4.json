@@ -1,0 +1,25 @@
+{
+    "disease_tag": "Thyroiditis",
+    "dialogs": [
+        {
+            "patient": "Recently, I am experiencing Palpitations and Fever",
+            "doctor": "In that case, do you have any Stuffy nose?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "Do you have a Cough?"
+        },
+        {
+            "patient": "No,but my temperature has been elevated for a few days now.",
+            "doctor": "Do you have a sore throat?"
+        },
+        {
+            "patient": "No",
+            "doctor": "Do you have any Headache?"
+        },
+        {
+            "patient": "No, but I have trouble with sleeping and anxiety.",
+            "doctor": ":Based on the symptoms, it is likely that the patient has Thyroiditis."
+        }
+     ]
+}

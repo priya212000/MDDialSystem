@@ -1,0 +1,27 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux, Doctor: ?",
+            "doctor": "Oh, do you have any Stomach ache?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Is it? Then do you experience Bloating?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "What about Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux.",
+            "doctor": "There are a few things that can cause acid reflux, such as certain foods or drinks, being overweight, or lying down after eating. I would recommend avoiding trigger foods or drinks, losing weight if you are overweight, and avoiding lying down for at least an hour after eating. If these things do not help, you may need to see a doctor for further testing or treatment."
+        }
+    ],
+    "issue": "GPT3 is inconsistent. It does not ask further questions. But it did recommend a few suggestions to overcome this problem. Despite doing that, it did ask to go check with a doctor after giving diagnosis and suggestions as a doctor "
+}

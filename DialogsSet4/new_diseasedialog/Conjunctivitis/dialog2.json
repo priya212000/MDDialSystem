@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Conjunctivitis",
+    "dialogs": [
+        {
+            "patient": " I have fever and my eyes are burning.",
+            "doctor": "Do you experience eye pain?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "How is your vision?"
+        },
+        {
+            "patient": "I have no problem with my vision.",
+            "doctor": "You could have conjunctivitis or external otitis."
+        },
+        {
+            "patient": "Which of these two do I more likely have?",
+            "doctor": "You are more likely to have external otitis because you have a fever in addition to your other symptoms."
+        }
+     ]
+}

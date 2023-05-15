@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Mastitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Fever and Headache",
+            "doctor": "In that case, do you have any Runny nose?"
+        },
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "In that case, do you have any Pharynx discomfort?"
+        },
+        {
+            "patient": "No, I don't have any Pharynx discomfort.",
+            "doctor": "In that case, do you have any Muscle Aches?"
+        },
+        {
+            "patient": "No, I don't have any muscle aches. But I have breast pain.",
+            "doctor": "In that case, you might have Mastitis."
+        }
+     ]
+}

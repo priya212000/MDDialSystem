@@ -1,0 +1,1130 @@
+{
+    "dialog_1": {
+      "disease_tag": "Asthma",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Shortness of breath and Cough",
+          "doctor": "Is it? Then do you experience Hemoptysis?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Based on the symptoms that the patient is experiencing, it is likely that the patient has Asthma."
+        }
+      ]
+    },
+    "dialog_2": {
+      "disease_tag": "Asthma",
+      "dialogs": [
+        {
+          "patient": "I have Shortness of breath",
+          "doctor": "Is it? Then do you experience Diarrhea?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Is it? Then do you experience Vomiting?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Then it is most likely that you have Asthma."
+        }
+      ]
+    },
+    "dialog_3": {
+      "disease_tag": "Asthma",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Wheezing",
+          "doctor": "Oh, do you have any Shortness of breath?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "Oh, do you have any Chest tightness and pain?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "Oh, do you have any difficulty breathing?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Oh, do you have any coughing?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "It seems like you might have Asthma."
+        }
+      ]
+    },
+    "dialog_4": {
+      "disease_tag": "Asthma",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing Cough",
+          "doctor": "Oh, do you have any Fever?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "What about Palpitations?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Have you been feeling Shortness of breath?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Based on the symptoms that the patient is experiencing, I diagnose you with Asthma."
+        }
+      ]
+    },
+    "dialog_5": {
+      "disease_tag": "Coronary heart disease",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Chest tightness and Fatigue",
+          "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Is it? Then do you experience Vomiting?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "What about Palpitations?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Well you might be having a Coronary heart disease"
+        }
+      ]
+    },
+    "dialog_6": {
+      "disease_tag": "Coronary heart disease",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Palpitations and Poor sleep",
+          "doctor": "In that case, do you have any Chest tightness?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Is it? Then do you experience Cough?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Expectoration?"
+        },
+        {
+          "patient": "No, I never had anything like that. ",
+          "doctor": "Based on the symptoms that the patient is experiencing, it is possible that the patient has Coronary heart disease."
+        }
+      ]
+    },
+    "dialog_7": {
+      "disease_tag": "Coronary heart disease",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Chest tightness and Palpitations",
+          "doctor": "What about Frequent urination?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "What about Urgency?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Are you experiencing Shortness of breath?"
+        },
+        {
+          "patient": "Yes, I am.",
+          "doctor": "Are you having Fatigue?"
+        },
+        {
+          "patient": "Yes",
+          "doctor": "Are you having light headedness?"
+        },
+        {
+          "patient": "Yes",
+          "doctor": "Are you having difficulty breathing?"
+        },
+        {
+          "patient": "Yes",
+          "doctor": "Are you feeling nauseatic?"
+        },
+        {
+          "patient": "Yes",
+          "doctor": "Are you having any swelling in the legs?"
+        },
+        {
+          "patient": "Yes Doctor",
+          "doctor": "Based on the symptoms, it is likely that you have Coronary heart disease."
+        }
+      ]
+    },
+    "dialog_8": {
+      "disease_tag": "Coronary heart disease",
+      "dialogs": [
+        {
+          "patient": "I have Pain behind the breastbone",
+          "doctor": "Is it? Then do you experience Vomiting?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Chest tightness and shortness of breath?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Oh, do you have any swelling in legs"
+        },
+        {
+          "patient": "Yes",
+          "doctor": "Then you could have Coronary heart disease"
+        }
+      ]
+    },
+    "dialog_9": {
+      "disease_tag": "Enteritis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Vomiting.",
+          "doctor": "In that case, do you have any Cough?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "What about Chest tightness and shortness of breath?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Oh, do you have any Sneeze?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Is it? Then do you experience Chills?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "What about Fever?"
+        },
+        {
+          "patient": "I don't think so",
+          "doctor": "In this case, the you could have Enteritis."
+        }
+      ]
+    },
+    "dialog_10": {
+      "disease_tag": "Enteritis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Decreased urine output and Cough",
+          "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Tensile and heavy?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Is it? Then do you experience Mucus pus and blood in the stool?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Fever?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Oh, do you have any Thirst?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "You could be suffering from Enteritis then."
+        }
+      ]
+    },
+    "dialog_11": {
+      "disease_tag": "Enteritis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Diarrhea",
+          "doctor": "In that case, do you have any Fever?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "What about Vomiting?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Oh, do you have any Fear of cold?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Is it? Then do you experience Stomach ache?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "I see. And what about Headache?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Well, it seems like you have Enteritis."
+        }
+      ]
+    },
+    "dialog_12": {
+      "disease_tag": "Enteritis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Vomiting",
+          "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "In that case, do you have any Thirst?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "In that case, do you have any Twitch?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Oh, do you have any Cough?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Okay, do you have any Sore throat?"
+        },
+        {
+          "patient": "Yes, I have been having that for a while now.",
+          "doctor": "Is it? Then do you experience Diarrhea?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "Okay, thank you for the information. Based on the symptoms that you have mentioned, it is likely that you have Enteritis."
+        }
+      ]
+    },
+    "dialog_13": {
+      "disease_tag": "Enteritis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Stomach ache and Defecate",
+          "doctor": "In that case, do you have any Night sweats?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "In that case, do you have any Fever?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "It is most likely that you have Enteritis"
+        }
+      ]
+    },
+    "dialog_14": {
+      "disease_tag": "Pneumonia",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing Pharynx discomfort and Cough",
+          "doctor": "Oh, do you have any Poor spirits?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "Oh, do you have any Fever?"
+        },
+        {
+          "patient": "Yes Doctor, I am feeling that as well",
+          "doctor": "Well, you could have a Pneumonia."
+        }
+      ]
+    },
+    "dialog_15": {
+      "disease_tag": "Pneumonia",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Chest tightness and shortness of breath",
+          "doctor": "Is it? Then do you experience Stuffy nose?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Is it? Then do you experience Hoarse?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "What about Chills?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Oh, do you have any Cough?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Oh, do you have any Fever?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Well, you could have Pneumonia then."
+        }
+      ]
+    },
+    "dialog_16": {
+      "disease_tag": "Pneumonia",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Shortness of breath",
+          "doctor": "What about Stuffy nose?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Is it? Then do you experience Runny nose?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Oh, do you have any Cough?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "Oh, do you have any Expectoration?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Is it? Then do you experience Wheezing?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Is it? Then do you experience Fatigue?"
+        },
+        {
+          "patient": "Yes, I am usually tired.",
+          "doctor": "Oh, do you have any Headache?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Is it? Then do you experience Shortness of breath?"
+        },
+        {
+          "patient": "Yes, I am having shortness of breath.",
+          "doctor": "Based on the symptoms that the patient is experiencing, it is likely that you have Pneumonia."
+        }
+      ]
+    },
+    "dialog_17": {
+      "disease_tag": "Pneumonia",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Chest tightness and shortness of breath",
+          "doctor": "In that case, do you have any Night sweats?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Cough?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "In that case, do you have any Fever?"
+        },
+        {
+          "patient": "Yes Doctor, I am feeling that as well",
+          "doctor": "What about Expectoration?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "In that case, you might be suffering from Pneumonia."
+        }
+      ]
+    },
+    "dialog_18": {
+      "disease_tag": "Pneumonia",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing Lumbago and Fever",
+          "doctor": "Is it? Then do you experience Twitch?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Rash?"
+        },
+        {
+          "patient": "What about Suppuration?",
+          "doctor": "No, I never had anything like that"
+        },
+        {
+          "patient": "Is it? Then do you experience Cough?",
+          "doctor": "Oh, do you have any Fear of cold?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "I see. Do you have a family history of Asthma?"
+        },
+        {
+          "patient": "No, I don't think so",
+          "doctor": "Is it? Then do you experience Chills?"
+        },
+        {
+          "patient": "Yes, sometimes",
+          "doctor": "Oh, do you have any Cyanosis?"
+        },
+        {
+          "patient": "What is that?",
+          "doctor": "It's a medical condition where your skin turns blue from lack of oxygen in the blood."
+        },
+        {
+          "patient": "No, I don't think so",
+          "doctor": "Well, based on the symptoms you're experiencing, it's possible that you have Pneumonia."
+        }
+      ]
+    },
+    "dialog_19": {
+      "disease_tag": "Rhinitis",
+      "dialogs": [
+        {
+          "patient": "I have Stuffy nose",
+          "doctor": "Oh, do you have any Headache?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "In that case, do you have any Nose bleeding?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "What about Cough?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "Oh, do you have any Sneeze?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "You might be suffering from Rhinitis"
+        }
+      ]
+    },
+    "dialog_20": {
+      "disease_tag": "Rhinitis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Expectoration and Runny nose",
+          "doctor": "What about Pharynx discomfort?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "What about Fever?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "In that case, do you have any Dizziness"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Oh, do you have any Headache?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Then you could be suffering from Rhinitis"
+        }
+      ]
+    },
+    "dialog_21": {
+      "disease_tag": "Rhinitis",
+      "dialogs": [
+        {
+          "patient": "I have Sneeze",
+          "doctor": "Oh, do you have any Cough?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Is it? Then do you experience Headache?"
+        },
+        {
+          "patient": "Yes most of the times",
+          "doctor": "Is it? Then do you experience Runny nose?"
+        },
+        {
+          "patient": "Yes Doctor, I am feeling that as well",
+          "doctor": "You might be suffering from Rhinitis"
+        }
+      ]
+    },
+    "dialog_22": {
+      "disease_tag": "Rhinitis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Headache and Stuffy nose",
+          "doctor": "What about Nose bleeding?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "What about Sneeze?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "What about Runny nose?"
+        },
+        {
+          "patient": "Yes Doctor, I am feeling that as well",
+          "doctor": "Based on the symptoms, it is likely that the patient has Rhinitis."
+        }
+      ]
+    },
+    "dialog_23": {
+      "disease_tag": "Conjunctivitis",
+      "dialogs": [
+        {
+          "patient": "I have Eye pain",
+          "doctor": "Is it? Then do you experience Vision loss?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Does your eye tear up?"
+        },
+        {
+          "patient": "Yes , most of the time.",
+          "doctor": "You could have Conjunctivitis, which is an inflammation of the eye."
+        }
+      ]
+    },
+    "dialog_24": {
+      "disease_tag": "Conjunctivitis",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing Photophobia",
+          "doctor": "do you have any Eye swelling?"
+        },
+        {
+          "patient": "Yes, sometimes.",
+          "doctor": "What about fever?"
+        },
+        {
+          "patient": "No,I don't have that.",
+          "doctor": "You could have Conjunctivitis."
+        }
+      ]
+    },
+    "dialog_25": {
+      "disease_tag": "Conjunctivitis",
+      "dialogs": [
+        {
+          "patient": "I am experiencing discharge from my eyes.",
+          "doctor": "What about eye swelling?"
+        },
+        {
+          "patient": "Yes, that too.",
+          "doctor": "Do you have stomach pain"
+        },
+        {
+          "patient": "No, I don't have that.",
+          "doctor": "What is the nature of the discharge (e.g., watery, pus-like)?"
+        },
+        {
+          "patient": "I think it is watery",
+          "doctor": "When did the symptoms first start?"
+        },
+        {
+          "patient": "Three days back",
+          "doctor": "You may have Conjunctivitis, which is an inflammation of the eye."
+        }
+      ]
+    },
+    "dialog_26": {
+      "disease_tag": "Conjunctivitis",
+      "dialogs": [
+        {
+          "patient": "I have Itchy and uncomfortable eyes and cold",
+          "doctor": "What about fever?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Then do you experience Photophobia?"
+        },
+        {
+          "patient": "Yes, I have trouble with bright lights.",
+          "doctor": "You might have Conjunctivitis."
+        }
+      ]
+    },
+    "dialog_27": {
+      "disease_tag": "Dermatitis",
+      "dialogs": [
+        {
+          "patient": "I have Rash and Itching",
+          "doctor": "What about scaly skin?"
+        },
+        {
+          "patient": "Yes, that too.",
+          "doctor": "Do you have fever"
+        },
+        {
+          "patient": "No, I don't have that.",
+          "doctor": "Do you have any other symptoms?"
+        },
+        {
+          "patient": "No, just these two.",
+          "doctor": "Based on the symptoms, you could have Dermatitis."
+        }
+      ]
+    },
+    "dialog_28": {
+      "disease_tag": "Dermatitis",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing Papule and Congestion of skin and mucous membranes",
+          "doctor": "Oh, do you have any Fear of cold?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Then do you experience dry skin?"
+        },
+        {
+          "patient": "Yes, frequently.",
+          "doctor": "Based on the symptoms that you have presented, it is likely that you have Dermatitis."
+        }
+      ]
+    },
+    "dialog_29": {
+      "disease_tag": "Dermatitis",
+      "dialogs": [
+        {
+          "patient": "Hi doctor, I am having itching.",
+          "doctor": "The symptom of itching could be caused by a number of conditions, including dermatitis, external otitis, conjunctivitis, or mastitis. To determine the cause of the itching, I would need to ask you additional questions and possibly examine the affected area."
+        },
+        {
+          "patient": "Ok, you can ask me additional questions.",
+          "doctor": "When did the itching start?"
+        },
+        {
+          "patient": "About a week ago.",
+          "doctor": "Is the itching localized to one area or does it affect the entire body?"
+        },
+        {
+          "patient": " It's localized to my right arm.",
+          "doctor": "Is the skin on the arm dry, cracked, or scaly?"
+        },
+        {
+          "patient": " No, it's not dry or cracked, but it is a little scaly.",
+          "doctor": "Is the arm swollen or red?"
+        },
+        {
+          "patient": "No, it's not swollen, but it is a little red.",
+          "doctor": "Do you have any other symptoms, such as fever, fatigue, or weight loss?"
+        },
+        {
+          "patient": "No, I don't have any other symptoms.",
+          "doctor": "Based on the symptoms, it is likely that you have Dermatitis."
+        }
+      ]
+    },
+    "dialog_30": {
+      "disease_tag": "Dermatitis",
+      "dialogs": [
+        {
+          "patient": "Hi doctor, I am having itching.",
+          "doctor": "The symptom of itching could be caused by a number of conditions, including dermatitis, external otitis, conjunctivitis, or mastitis. To determine the cause of the itching, I would need to ask the patient additional questions and possibly examine the affected area."
+        },
+        {
+          "patient": "Ok, you can ask me additional questions.",
+          "doctor": "When did the itching start?"
+        },
+        {
+          "patient": "About a week ago.",
+          "doctor": "Is the itching localized to one area or does it affect the entire body?"
+        },
+        {
+          "patient": " It's localized to my right arm.",
+          "doctor": "Is the skin on the arm dry, cracked, or scaly?"
+        },
+        {
+          "patient": " No, it's not dry or cracked, but it is a little scaly.",
+          "doctor": "Is the arm swollen or red?"
+        },
+        {
+          "patient": "No, it's not swollen, but it is a little red.",
+          "doctor": "Do you have any other symptoms, such as fever, fatigue, or weight loss?"
+        },
+        {
+          "patient": "No, I don't have any other symptoms.",
+          "doctor": "Based on the symptoms, it is likely that the patient has Dermatitis."
+        }
+      ]
+    },
+    "dialog_31": {
+      "disease_tag": "Dermatitis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Itching and cough.",
+          "doctor": "Is it? Then do you experience Chest tightness"
+        },
+        {
+          "patient": "No, I never had anything like that",
+          "doctor": "In that case, do you have any Difficulty breathing?"
+        },
+        {
+          "patient": "No, I don't think so",
+          "doctor": "So you have problem only with the skin?"
+        },
+        {
+          "patient": "Yes, it's just the skin.",
+          "doctor": "Based on the symptoms, I think you might have Dermatitis."
+        }
+      ]
+    },
+    "dialog_32": {
+      "disease_tag": "External otitis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Ear itching",
+          "doctor": "What about Tinnitus?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Oh, do you have any Fever?"
+        },
+        {
+          "patient": "No",
+          "doctor": "It could be External otitis then."
+        }
+      ]
+    },
+    "dialog_33": {
+      "disease_tag": "External otitis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Earache",
+          "doctor": "What about Palpitations"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "What about Fever?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "How is your hearing?"
+        },
+        {
+          "patient": "I can hear just fine.",
+          "doctor": "Have you had any cold or flu like symptoms recently?"
+        },
+        {
+          "patient": "No, I haven't had any cold or flu like symptoms recently.",
+          "doctor": "You maybe having External otitis."
+        }
+      ]
+    },
+    "dialog_34": {
+      "disease_tag": "External otitis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am not able to hear properly.",
+          "doctor": "What about headache?"
+        },
+        {
+          "patient": "I get that because of stress",
+          "doctor": "What about Fever?"
+        },
+        {
+          "patient": "No , I don't have fever.",
+          "doctor": "What are all the symptoms you are experiencing?"
+        },
+        {
+          "patient": "I have ear pain and malaise.",
+          "doctor": "Are you experiencing any flu-like symptoms?"
+        },
+        {
+          "patient": "No, I don't have any flu-like symptoms.",
+          "doctor": "You may have External otitis."
+        }
+      ]
+    },
+    "dialog_35": {
+      "disease_tag": "External otitis",
+      "dialogs": [
+        {
+          "patient": "I have Hearing loss",
+          "doctor": "What about Tinnitus?"
+        },
+        {
+          "patient": "I dont think so",
+          "doctor": "Is it? Then do you experience Earache?"
+        },
+        {
+          "patient": "No, I don't experience earache",
+          "doctor": "Do you experience any drainage from your ear?"
+        },
+        {
+          "patient": "Do you mean discharge?",
+          "doctor": "Yes, do you experience any discharge from your ear?"
+        },
+        {
+          "patient": "Yes , I have discharge from my ear often.",
+          "doctor": "You may have External otitis."
+        }
+      ]
+    },
+    "dialog_36": {
+      "disease_tag": "External otitis",
+      "dialogs": [
+        {
+          "patient": "I having fever and ear pain .",
+          "doctor": "Is there any swelling in your ear?"
+        },
+        {
+          "patient": " I haven't noticed so, I might have it.",
+          "doctor": "Oh! How long have you been suffering with fever?"
+        },
+        {
+          "patient": "It's been a few days now. ",
+          "doctor": "Based on the symptoms that you are experiencing, it is likely that you have External otitis."
+        }
+      ]
+    },
+    "dialog_37": {
+      "disease_tag": "Mastitis",
+      "dialogs": [
+        {
+          "patient": " I have been feeling Fatigue and Fever",
+          "doctor": "What about Cough?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "In that case, do you have any Incontinence?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": " How about Nausea and Vomiting?"
+        },
+        {
+          "patient": "Yes, I have been feeling that for the past few days",
+          "doctor": "Based on the symptoms that you have mentioned, it is likely that you have Mastitis."
+        }
+      ]
+    },
+    "dialog_38": {
+      "disease_tag": "Mastitis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Fever and Headache",
+          "doctor": "In that case, do you have any Runny nose?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "In that case, do you have any Pharynx discomfort?"
+        },
+        {
+          "patient": "No, I don't have any Pharynx discomfort.",
+          "doctor": "In that case, do you have any Muscle Aches?"
+        },
+        {
+          "patient": "No, I don't have any muscle aches. But I have breast pain.",
+          "doctor": "In that case, you might have Mastitis."
+        }
+      ]
+    },
+    "dialog_39": {
+      "disease_tag": "Mastitis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Breast tenderness",
+          "doctor": "In that case, do you have any Vomiting?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "What about Fever?"
+        },
+        {
+          "patient": "No, I don't think I have a fever.",
+          "doctor": "Well, based on the symptoms you're describing, it's possible you could have Mastitis."
+        }
+      ]
+    },
+    "dialog_40": {
+      "disease_tag": "Thyroiditis",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Fever and Pain in front of neck",
+          "doctor": "Based on the symptoms that you are reporting, it is likely that you have Thyroiditis."
+        }
+      ]
+    },
+    "dialog_41": {
+      "disease_tag": "Thyroiditis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Mild thyroid enlargement and Pharynx discomfort.",
+          "doctor": "What about Cough?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Oh, do you have any Fatigue?"
+        },
+        {
+          "patient": "Not that I know of, Doctor: ?",
+          "doctor": "Based on the symptoms that you are experiencing, it is likely that you have Thyroiditis."
+        }
+      ]
+    },
+    "dialog_42": {
+      "disease_tag": "Thyroiditis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Difficulty breathing and Chest tightness and shortness of breath.",
+          "doctor": "What about Hoarse?"
+        },
+        {
+          "patient": "No, I don't have that",
+          "doctor": "Oh, do you have any Proptosis?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "Oh, do you have any Edema?"
+        },
+        {
+          "patient": "No, I don't think so.",
+          "doctor": "Based on the symptoms that you are experiencing, it is likely that you have Thyroiditis."
+        }
+      ]
+    },
+    "dialog_43": {
+      "disease_tag": "Thyroiditis",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing Palpitations and Fever",
+          "doctor": "In that case, do you have any Stuffy nose?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "Do you have a Cough?"
+        },
+        {
+          "patient": "No,but my temperature has been elevated for a few days now.",
+          "doctor": "Do you have a sore throat?"
+        },
+        {
+          "patient": "No",
+          "doctor": "Do you have any Headache?"
+        },
+        {
+          "patient": "No, but I have trouble with sleeping and anxiety.",
+          "doctor": ":Based on the symptoms, it is likely that you have Thyroiditis."
+        }
+      ]
+    },
+    "dialog_44": {
+      "disease_tag": "Thyroiditis",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Pain in front of neck and Thirst",
+          "doctor": "In that case, do you have any Palpitations?"
+        },
+        {
+          "patient": "No, I never had anything like that.",
+          "doctor": "What about Afraid of heat?"
+        },
+        {
+          "patient": " No ,nothing like that.",
+          "doctor": "Do you have any other symptoms?"
+        },
+        {
+          "patient": "No",
+          "doctor": "Based on the symptoms, it is likely that you have Thyroiditis."
+        }
+      ]
+    },
+    "dialog_45": {
+      "disease_tag": "Traumatic brain injury",
+      "dialogs": [
+        {
+          "patient": "Doctor, I am having Headache and dizziness",
+          "doctor": "Are you experience Vomiting?"
+        },
+        {
+          "patient": "Yes Doctor, I am feeling that as well",
+          "doctor": "What about Head trauma pain?"
+        },
+        {
+          "patient": "I am experiencing that sometimes",
+          "doctor": "Based on the symptoms that you are experiencing, it is possible that you are suffering with a Traumatic brain injury."
+        }
+      ]
+    },
+    "dialog_46": {
+      "disease_tag": "Traumatic brain injury",
+      "dialogs": [
+        {
+          "patient": "Hi Doctor, I am having Fever.",
+          "doctor": "Oh, do you have any Nausea?"
+        },
+        {
+          "patient": "Sometimes.",
+          "doctor": "What about Consciousness disorder?"
+        },
+        {
+          "patient": "what does that mean?",
+          "doctor": "Consciousness disorder refers to a change in a person's usual state of wakefulness or awareness. This can include feeling drowsy or confused, being unable to think clearly, or losing consciousness altogether."
+        },
+        {
+          "patient": "I do have that.",
+          "doctor": "Based on the symptoms that the patient is experiencing, it is likely that they are suffering with a Traumatic brain injury."
+        }
+      ]
+    },
+    "dialog_47": {
+      "disease_tag": "Traumatic brain injury",
+      "dialogs": [
+        {
+          "patient": "I have been feeling Head trauma pain.",
+          "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+          "patient": "Not that I know of",
+          "doctor": "What about loss in movement coordination?"
+        },
+        {
+          "patient": "I have them often. ",
+          "doctor": "Did you experience any changes in your behavior or mood?"
+        },
+        {
+          "patient": "Yes, I've been feeling down and out lately.",
+          "doctor": "Any changes in your sleep patterns?"
+        },
+        {
+          "patient": "Yes, I've been having trouble sleeping",
+          "doctor": "Based on the symptoms that you are experiencing, it is likely that you are suffering a Traumatic brain injury."
+        }
+      ]
+    },
+    "dialog_48": {
+      "disease_tag": "Traumatic brain injury",
+      "dialogs": [
+        {
+          "patient": "Recently, I am experiencing dizziness and vomitng",
+          "doctor": "Oh, do you have any Unconsciousness?"
+        },
+        {
+          "patient": "Well not in my knowledge",
+          "doctor": "Any trouble concentrating or memory problems?"
+        },
+        {
+          "patient": "Yes, I've been having trouble concentrating and I've been forgetting things more often.",
+          "doctor": "Any changes in your speech?"
+        },
+        {
+          "patient": "Yes, my speech has been slurred and I've been having trouble forming words.",
+          "doctor": "It is possible that you could be suffering from a Traumatic brain injury."
+        }
+      ]
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "I have Cough and Pharynx discomfort, Doctor: ?",
+            "doctor": "In that case, do you have any Nausea?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Hard to swallow?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+       {
+          "patient":"I have Cough and Pharynx discomfort.",
+          "doctor":"Based on the symptoms that the patient is having, it is likely that the patient has a cold or the flu."
+       }
+    ],
+    "issue":"GPT3 diagnosis the wrong disease without asking multiple specific questions."
+ }

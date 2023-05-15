@@ -1,0 +1,27 @@
+{
+    "disease_tag": "Coronary heart disease",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Palpitations and Poor sleep",
+            "doctor": "In that case, do you have any Chest tightness?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Is it? Then do you experience Cough?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "In that case, do you have any Expectoration?"
+        },
+
+        {
+            "patient": "No, I never had anything like that. ",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is possible that the patient has coronary heart disease."
+        }
+
+
+    ]
+
+}

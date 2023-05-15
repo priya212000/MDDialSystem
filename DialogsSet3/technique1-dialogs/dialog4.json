@@ -1,0 +1,44 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Chest tightness",
+            "doctor": "Oh, do you have any Stomach ache?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "What about Cough?"
+        },
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": "Hi Doctor, I am having Chest tightness.",
+            "doctor": "Do you have any coughing or wheezing?"
+        },
+        {
+            "patient": "No.",
+            "doctor": "Are you having any difficulty in breathing?"
+        },
+        {
+            "patient": "No.",
+            "doctor": "Do you have any pain in your chest?"
+        },
+        {
+            "patient": "Yes.",
+            "doctor": "You might be suffering from costochondritis."
+        }
+    ],
+    "issue": "Through GPT-3 is now making decision based on various symptoms that the patient has, it does not reach the same conclusion as the original original_dialogue.",
+    "improvement": "GPT-3 starts asking more questions specific to the symptoms and follows a chain of symptoms to decide which disease patient has."
+ }

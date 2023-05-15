@@ -1,0 +1,41 @@
+{
+    "disease_tag": "Entiritis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Vomiting",
+            "doctor": "Is it? Then do you experience Fever?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "In that case, do you have any Thirst?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "In that case, do you have any Twitch?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "Oh, do you have any Cough?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "Okay, do you have any Sore throat?"
+        },
+
+        {
+            "patient": "Yes, I have been having that for a while now.",
+            "doctor": "Is it? Then do you experience Diarrhea?"
+        },
+
+        {
+            "patient": "Yes most of the times",
+            "doctor": "Okay, thank you for the information. Based on the symptoms that you have mentioned, it is likely that you have enteritis."
+        }
+
+    ]
+
+}

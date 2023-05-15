@@ -1,0 +1,23 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Recently, I am experiencing Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "Is it? Then do you experience Hard to swallow?"
+        },
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "What about Pharynx discomfort?"
+        },
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+        {
+            "patient": "Recently, I am experiencing Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "The symptoms you are describing are suggestive of gastroesophageal reflux disease (GERD). GERD is a condition in which stomach acid and other contents of the stomach reflux back up into the esophagus. This can cause a burning sensation in the chest or throat. Other symptoms of GERD may include difficulty swallowing, coughing, and wheezing. If you are experiencing any of these symptoms, I recommend that you see a doctor for further evaluation."
+        }
+    ],
+    "issue":"GPT3 does not ask specific questions (or) directly gives the diagnosis after the first prompt. Also GPT-3 provides a really long description about the disease which is not really required."
+ }

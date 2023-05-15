@@ -1,0 +1,22 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "Hi Doctor, I am having Thirst and Bitter, Doctor: ?",
+            "doctor": "Ok, this means you might be having Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": " Hi Doctor, I am having Thirst and Bitter.",
+            "doctor": " Do you have acid reflux?"
+        },
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "You might be suffering from GERD (Gastroesophageal reflux disease)."
+        }
+        
+    ],
+    "issue":"GPT3 diagnosis the wrong disease without asking multiple questions.",
+    "improvement": "GPT3 has asked a few qiuestions, but diagonised the wrong disease."
+ }
+ 

@@ -1,0 +1,64 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux, Doctor: ?",
+            "doctor": "Oh, do you have any Stomach ache?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Is it? Then do you experience Bloating?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "What about Pain behind the breastbone?"
+        },
+        {
+            "patient": "Yes, sometimes, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux.",
+            "doctor": "So you have acid reflux. Do you have stomach ache?"
+        },
+
+        {
+            "patient": "Well not in my knowledge.",
+            "doctor": "So you have acid reflux and no stomach ache. Do you experience bloating?"
+        },
+
+        {
+            "patient": "Not that I know of.",
+            "doctor": "So you have acid reflux and no bloating or stomach ache. What about pain behind the breastbone?"
+        },
+
+        {
+            "patient": "Yes Doctor, I am feeling that as well.",
+            "doctor": "So you have acid reflux and pain behind the breastbone. Have you been burping a lot?"
+        },
+
+        {
+            "patient": "Yes, that too.",
+            "doctor": "So you have acid reflux, pain behind the breastbone, and burping. Are you feeling nauseous?"
+        },
+
+        {
+            "patient": "A little, but not often.",
+            "doctor": "So you have acid reflux, pain behind the breastbone, burping, and occasionally feeling nauseous. Are you experiencing any shortness of breath?"
+        },
+
+        {
+            "patient": "No, I don't think so.",
+            "doctor": "So you have acid reflux, pain behind the breastbone, burping, and occasionally feeling nauseous, but no shortness of breath. Have you lost any weight recently?"
+        },
+
+        {
+            "patient": "Yes, I have lost about 10 pounds in the last month.",
+            "doctor": "So you have acid reflux, pain behind the breastbone, burping, occasionally feeling nauseous, no shortness of breath, and weight loss. Based on the symptoms you are describing, it is likely that you have gastroesophageal reflux disease (GERD). I recommend that you see a specialist to confirm the diagnosis and to discuss treatment options."
+        }
+    ],
+    "issue": "GPT3 is inconsistent. It does not ask further questions. But it did recommend a few suggestions to overcome this problem. Despite doing that, it did ask to go check with a doctor after giving diagnosis and suggestions as a doctor ",
+    "improvement": "GPT3 takes into consideration all of the symptoms provided and then goes on to give a diagnosis after asking multiple questions on it its own instead of just giving abrupt diagnosis."
+
+}

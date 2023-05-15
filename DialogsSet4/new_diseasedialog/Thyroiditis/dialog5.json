@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Thyroiditis",
+    "dialogs": [
+        {
+            "patient":"I have been feeling Pain in front of neck and Thirst",
+            "doctor":"In that case, do you have any Palpitations?"
+        },
+        {
+            "patient":"No, I never had anything like that.",
+            "doctor":"What about Afraid of heat?"
+        },
+        {
+            "patient":" No ,nothing like that.",
+            "doctor":"Do you have any other symptoms?"
+        },
+        {
+            "patient":"No",
+            "doctor":"Based on the symptoms, it is likely that the patient has thyroiditis."
+        }
+     ]
+}

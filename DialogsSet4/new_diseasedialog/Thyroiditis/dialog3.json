@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Thyroiditis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Difficulty breathing and Chest tightness and shortness of breath.",
+            "doctor": "What about Hoarse?"
+        },
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Oh, do you have any Proptosis?"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Oh, do you have any Edema?"
+        },
+        {
+            "patient": "No, I don't think so.",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is likely that the patient has thyroiditis."
+        }
+     ]
+}

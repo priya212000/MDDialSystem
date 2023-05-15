@@ -1,0 +1,17 @@
+{
+    "disease_tag": "Traumatic brain injury",
+    "dialogs": [
+        {
+            "patient": "Doctor, I am having Headache and dizziness",
+            "doctor": "Are you experience Vomiting?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "What about Head trauma pain?"
+        },
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is possible that the patient has suffered a traumatic brain injury."
+        }
+     ]
+}

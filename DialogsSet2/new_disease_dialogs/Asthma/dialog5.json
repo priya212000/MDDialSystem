@@ -1,0 +1,37 @@
+{
+    "disease_tag": "Asthma",
+    "dialogs": [
+
+        {
+            "patient": "Recently, I am experiencing Cough",
+            "doctor": "Oh, do you have any Fever?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "What about Palpitations?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Have you been feeling Shortness of breath?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Based on the symptoms that the patient is experiencing, I diagnose you with Asthma."
+        }
+
+
+
+
+
+    
+    ]
+
+}

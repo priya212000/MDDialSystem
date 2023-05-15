@@ -1,0 +1,43 @@
+{
+   
+"dialogs": [
+             {
+                "patient": "Recently, I am experiencing Pain behind the breastbone, Doctor: ?",
+                "doctor": "Oh, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I don't have that, Doctor: ?",
+                "doctor": "What about Hematemesis?"
+            },
+            {
+                "patient": "Not that I know of, Doctor: ?",
+                "doctor": "Is it? Then do you experience Nausea?"
+            },
+            {
+                "patient": "No, I never had anything like that., Doctor: ?",
+                "doctor": "Is it? Then do you experience Black stool?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "In that case, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Yes, sometimes, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+        
+    ,"gpt3_output": [
+        {
+            "patient": "I have been feeling Pain behind the breastbone",
+            "doctor": "Have you been experiencing this pain for a long time? Does the pain worsen with certain activities or when you take certain medications? Do you have any other symptoms such as nausea, vomiting, fever, or shortness of breath? Does the pain radiate to other areas of your body such as your back or shoulders? Are there any other medical conditions that you have been diagnosed with?"
+        },
+        {
+            "patient": "Yes, the pain has been going on for a few days and it gets worse when I take certain medications. I also have nausea, vomiting, and fever. The pain radiates to my back and shoulders. I also have high blood pressure.",
+            "doctor": "BBased on your symptoms and medical conditions, it is possible that you are experiencing a condition known as gastroesophageal reflux disease (GERD). I would recommend that you visit a gastroenterologist for further testing and treatment."
+        
+        }  
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself.",
+  "improvement": "The GPT-3 doesn't just randomly diagnose the disease and actually asks relevant questions and also comes up with a diagnosis only after considering all the symptoms. The questions are also very specific and covers up a lot of information at once"
+}

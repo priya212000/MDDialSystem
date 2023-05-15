@@ -1,0 +1,25 @@
+{
+    "disease_tag": "Conjunctivitis",
+    "dialogs": [
+        {
+            "patient": "I am experiencing discharge from my eyes.",
+            "doctor": "What about eye swelling?"
+        },
+        {
+            "patient": "Yes, that too.",
+            "doctor": "Do you have stomach pain"
+        },
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "What is the nature of the discharge (e.g., watery, pus-like)?"
+        },
+        {
+            "patient": "I think it is watery",
+            "doctor": "When did the symptoms first start?"
+        },
+        {
+            "patient": "Three days back",
+            "doctor": "You may have conjunctivitis, which is an inflammation of the eye."
+        }
+     ]
+}

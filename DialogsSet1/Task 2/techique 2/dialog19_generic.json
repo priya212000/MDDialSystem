@@ -1,0 +1,57 @@
+{
+   
+"dialogs": [
+             "dialogs": [
+            {
+                "patient": "Recently, I am experiencing Acid reflux, Doctor: ?",
+                "doctor": "Oh, do you have any Hard to swallow?"
+            },
+            {
+                "patient": "Not that I know of, Doctor: ?",
+                "doctor": "In that case, do you have any Expectoration?"
+            },
+            {
+                "patient": "Not that I know of, Doctor: ?",
+                "doctor": "In that case, do you have any Cough?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "Oh, do you have any Pharynx discomfort?"
+            },
+            {
+                "patient": "I am experiencing that sometimes, Doctor: ?",
+                "doctor": "This could probably be Esophagitis."
+            }
+        ]
+        ]
+        
+    ,"gpt3_output": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux.",
+            "doctor": "How often do you experience acid reflux? "
+        },
+        {
+            "patient": "It's been happening every day for the past week.",
+            "doctor": "Does the acid reflux cause any pain or discomfort? "
+        
+        }
+        {
+            "patient": "Yes, it does. It's very uncomfortable.",
+            "doctor": "Does the discomfort feel like a burning sensation in your chest or throat?"
+        
+        }   
+        {
+            "patient": "Yes, it does. It feels like a burning sensation in my chest.",
+            "doctor": "How long does the burning sensation last?"
+        
+        } 
+        {
+            "patient": "It usually starts when I eat and lasts for a few hours.",
+            "doctor": "Based on the patient's symptoms and responses, the doctor can diagnose the patient with gastroesophageal reflux disease (GERD). The doctor may recommend lifestyle changes such as avoiding certain foods or losing weight, as well as medications such as antacids or proton pump inhibitors to help treat the condition."
+        
+        } 
+
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself.",
+  "improvement": "The GPT-3 doesn't just randomly diagnose the disease and actually asks relevant questions and also comes up with a diagnosis only after considering all the symptoms. The questions are also very specific and covers up a lot of information at once"
+}

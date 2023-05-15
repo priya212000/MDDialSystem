@@ -1,0 +1,25 @@
+{
+    "disease_tag": "External otitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Earache",
+            "doctor": "What about Palpitations"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "What about Fever?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "How is your hearing?"
+        },
+        {
+            "patient": "I can hear just fine.",
+            "doctor": "Have you had any cold or flu like symptoms recently?"
+        },
+        {
+            "patient": "No, I haven't had any cold or flu like symptoms recently.",
+            "doctor": "You maybe having external otitis."
+        }
+     ]
+}

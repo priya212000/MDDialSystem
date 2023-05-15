@@ -1,0 +1,17 @@
+{
+    "disease_tag": "Conjunctivitis",
+    "dialogs": [
+        {
+            "patient": "Recently, I am experiencing Photophobia",
+            "doctor": "do you have any Eye swelling?"
+        },
+        {
+            "patient": "Yes, sometimes.",
+            "doctor": "What about fever?"
+        },
+        {
+            "patient": "No,I don't have that.",
+            "doctor": "The patient could have conjunctivitis, which is an inflammation of the eye that can be caused by a virus, bacteria, or an allergic reaction. Symptoms include red, itchy eyes, watery eyes, discharge, swelling, and crusty eyelashes."
+        }
+     ]
+}

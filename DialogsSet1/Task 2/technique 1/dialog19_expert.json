@@ -1,0 +1,63 @@
+
+{
+   "dialogs": [
+            {
+                "patient": "I have been feeling Pain behind the breastbone, Doctor: ?",
+                "doctor": "Is it? Then do you experience Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I don't have that, Doctor: ?",
+                "doctor": "What about Chest tightness?"
+            },
+            {
+                "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+                "doctor": "Is it? Then do you experience Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes most of the times, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux",
+            "doctor": "I am a gastroenterologist. I'm going to ask you a few questions about your symptoms so that I can help you figure out what's causing your acid reflux."
+        },
+        {
+            "patient": "Ok",
+            "doctor": "When did you first start experiencing acid reflux?"
+        },
+        {
+            "patient": "About a month ago.",
+            "doctor": "Have you been experiencing it every day?"
+        },
+        {
+            "patient": "No, just some days.",
+            "doctor": "What seems to trigger it?"
+        },
+        {
+            "patient": "Eating spicy food or lying down after a meal.",
+            "doctor": "Have you been losing weight?"
+        },
+        {
+            "patient": "No.",
+            "doctor": "Are you having trouble swallowing?"
+        },
+            {
+            "patient": "No.",
+            "doctor": "Are you experiencing chest pain?"
+        },
+        {
+            "patient": "No.",
+            "doctor": "Based on the symptoms you've described, it's likely that you have gastroesophageal reflux disease, or GERD. I recommend that you see a doctor so that they can confirm the diagnosis"
+        }
+      
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself. The long explanation of an incorrect diagnosis is also not necessary.",
+  "improvement": "The GPT-3 not only asks a lot of relevant questions, but also considers symptoms which are relevant to whatever is mentioned by the patient. It doesn't directly predict the disease and instead meticulously poses relevant questions"
+}
+

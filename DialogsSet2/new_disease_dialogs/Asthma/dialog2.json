@@ -1,0 +1,34 @@
+{
+    "disease_tag": "Asthma",
+    "dialogs": [
+
+        {
+            "patient": "I have been feeling Pharynx discomfort.",
+            "doctor": "Is it? Then do you experience Suppuration?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "In that case, do you have any Cough?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "Oh, do you have any First degree swelling of bilateral tonsils?"
+        },
+
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "What about Shortness of breath?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes.",
+            "doctor": "Based on these symptoms, it is possible that the patient has tonsillitis."
+        }
+
+
+    
+    ]
+
+}

@@ -1,0 +1,36 @@
+{
+    "disease_tag": "Asthma",
+    "dialogs": [
+
+        {
+            "patient": "Hi Doctor, I am having Wheezing",
+            "doctor": "Oh, do you have any Shortness of breath?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "Oh, do you have any Chest tightness and pain?"
+        },
+
+        {
+            "patient": "I am experiencing that sometimes",
+            "doctor": "Oh, do you have any difficulty breathing?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "Oh, do you have any coughing?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "It seems like you might have Asthma. Let me give you a prescription for an inhaler."
+        }
+
+
+
+
+    
+    ]
+
+}

@@ -1,0 +1,26 @@
+{
+    "disease_tag": "Coronary hear disease",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Chest tightness and Fatigue",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "Is it? Then do you experience Vomiting?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Palpitations?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "Well you might be having a Coronary heart disease"
+        }
+
+    ]
+
+}

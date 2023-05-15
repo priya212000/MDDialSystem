@@ -1,0 +1,57 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Expectoration and Chest tightness, Doctor: ?",
+            "doctor": "Oh, do you have any Vomiting?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "In that case, do you have any Fever?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "In that case, do you have any Nausea?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Runny nose?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+            "doctor": "This could probably be Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement":[
+        {
+            "patient": "I have been feeling Expectoration and Chest tightness.",
+            "doctor": "Do you have vomiting?"
+        },
+
+        {
+            "patient": "Not that I know of.",
+            "doctor": "So you don't have vomiting. Do you have any fever?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "So you don't have fever or vomiting. Do you have nausea?"
+        },
+
+        {
+            "patient": "Not that I know of.",
+            "doctor": "So you don't have nausea either. What about your appetite?"
+        },
+
+        {
+            "patient": "It's been really off lately. I don't feel like eating much.",
+            "doctor": "So you have a decreased appetite. Are you having any difficulty breathing?"
+        },
+
+        {
+            "patient": "Yes, I feel like I can't get a deep breath and my chest feels tight.",
+            "doctor": "It sounds like you could be having a respiratory infection. I'll prescribe some antibiotics for you."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. Also, asks to go check with a doctor after giving diagnosis as a doctor.",
+    "improvement": "GPT3 is now able to handle multiple symptoms given in concurrent sentences. Also, it asks various other symptoms by itself and took into consideration all of the provided symptoms while giving a diagnosis that the patient has some respiratory infection and also prescribes medicine this time."
+ }

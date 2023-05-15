@@ -1,0 +1,15 @@
+{
+    "technique_1": {
+      "explaination": "This technique originates from the Few-shot technique where we provide GPT-3 a sample conversation between patient and doctor (few-shot learning) to see if GPT-3 is able to understand the context better.",
+      "referece_papers": [
+        "https://arxiv.org/pdf/2005.14165.pdf"
+      ]
+    },
+    "technique_2": {
+      "explaination": "Following up on the Chain-of-Thought prompting technique, by providing a list of diseases and their associated symptoms in the prompt, GPT-3 responses start to really improve. Since GPT-3 knows which symptoms are related to which disease, it is able to question with confidence about the symptoms that the patient has. For the list of diseases and corresponding symptoms, I have used the kaggle disease & symptom dataset.",
+      "referece_papers": [
+        "https://arxiv.org/pdf/2201.11903.pdf",
+        "https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=dataset.csv"
+      ]
+    }
+}

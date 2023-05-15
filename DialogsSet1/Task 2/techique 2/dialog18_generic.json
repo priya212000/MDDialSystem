@@ -1,0 +1,44 @@
+{
+   
+"dialogs": [
+             {
+                "patient": "I have Hiccup, Doctor: ?",
+                "doctor": "What about Chest tightness?"
+            },
+            {
+                "patient": "I am experiencing that sometimes, Doctor: ?",
+                "doctor": "Oh, do you have any Bloating?"
+            },
+            {
+                "patient": "Yes most of the times, Doctor: ?",
+                "doctor": "What about Pain behind the breastbone?"
+            },
+            {
+                "patient": "I am experiencing that sometimes, Doctor: ?",
+                "doctor": "What about Acid reflux?"
+            },
+            {
+                "patient": "I am experiencing that sometimes, Doctor: ?",
+                "doctor": "What about Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "I am experiencing that sometimes, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+        
+    ,"gpt3_output": [
+        {
+            "patient": "I have Hiccup.",
+            "doctor": "How long have you been hiccupping? Is this the first time you have experienced this symptom? Are there any other symptoms you would like to mention, such as feeling short of breath or chest pain? How often do you hiccup? Do you have any other medical conditions? Are you taking any medications? "
+        },
+        {
+            "patient": "I have been hiccupping for the past two days. This is the first time I have experienced this symptom. No other symptoms. I hiccup about every 10 minutes. No, I do not have any other medical conditions and I am not taking any medications.",
+            "doctor": "Based on your symptoms, it is possible that you are suffering from a condition known as gastric dysrhythmia. I suggest we do an endoscopy to rule out any other causes of hiccup. I would also recommend avoiding eating large meals, lying down immediately after eating, and eating spicy food. You should also try to limit your caffeine intake. Additionally, I suggest that you take a deep breath and try to hold it for 10-15 seconds before exhaling slowly. "
+        
+        }  
+
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself.",
+  "improvement": "The GPT-3 doesn't just randomly diagnose the disease and actually asks relevant questions and also comes up with a diagnosis only after considering all the symptoms. The questions are also very specific and covers up a lot of information at once"
+}

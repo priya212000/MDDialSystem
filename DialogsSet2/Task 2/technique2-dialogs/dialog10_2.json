@@ -1,0 +1,53 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Acid reflux and Burning sensation behind the breastbone, Doctor: ?",
+            "doctor": "In that case, do you have any Stomach ache?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Is it? Then do you experience Black stool?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "What about Hematemesis?"
+        },
+        {
+            "patient": "Well not in my knowledge, Doctor: ?",
+            "doctor": "In that case, you have Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement": [
+        {
+            "patient": "I have been feeling Acid reflux and Burning sensation behind the breastbone.",
+            "doctor": "Let's think step by step. You are experiencing acid reflux and Burning sensation behind the breastbone. But do you have black stool?"
+        },
+
+        {
+            "patient": "No doctor, I don't have black stool.",
+            "doctor": "Let's think step by step. You are experiencing acid reflux and Burning sensation behind the breastbone but no black stool. Are you feeling any stomach ache?"
+        },
+
+        {
+            "patient": "No, not that I know of doctor.",
+            "doctor": "Let's think step by step. You are experiencing acid reflux and Burning sensation behind the breastbone but no black stool or stomach ache. Are you feeling any Hematemesis?"
+        },
+
+        {
+            "patient": "Nothing that I know of doctor.",
+            "doctor": "Let's think step by step. You are experiencing acid reflux and Burning sensation behind the breastbone but no black stool, stomach ache, or Hematemesis. Are you feeling any abdominal pain?"
+        },
+
+        {
+            "patient": "No, not that I know of doctor.",
+            "doctor": "Let's think step by step. You are experiencing acid reflux and Burning sensation behind the breastbone but no black stool, stomach ache, Hematemesis, or abdominal pain. Are you feeling any chest pain?"
+        },
+
+        {
+            "patient": "Yes, I am feeling chest pain doctor.",
+            "doctor": "Based on the symptoms that you are experiencing, it is likely that you are suffering from heartburn or GERD. I would recommend that you see a specialist for further evaluation and treatment."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. But this time it also suggests other symptoms for the disease that it had diagnosed.",
+    "improvement": "GPT3 handles multiple symptoms in a single sentence and processes each one of them to go ahead and give a diagnosis. It even came up with asking the patient a new symptom on its own. But it came up with 2 final diagnoses that it could be heartburn or GERD but did not diagnose Esophagitis."
+}

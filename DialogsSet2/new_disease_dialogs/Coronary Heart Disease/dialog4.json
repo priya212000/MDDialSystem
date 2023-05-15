@@ -1,0 +1,25 @@
+{
+    "disease_tag": "Coronary heart disease",
+    "dialogs": [
+        {
+            "patient": "I have Pain behind the breastbone",
+            "doctor": "Is it? Then do you experience Vomiting?"
+        },
+        {
+            "patient": " Not that I know of",
+            "doctor": "In that case, do you have any Chest tightness and shortness of breath?"
+        },
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Oh, do you have any swelling in legs"
+        },
+        {
+            "patient": "Yes",
+            "doctor": "Then you could have Coronary heart disease"
+        }
+
+
+
+    ]
+
+}

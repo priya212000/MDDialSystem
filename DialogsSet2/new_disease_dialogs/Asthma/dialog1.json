@@ -1,0 +1,20 @@
+{
+    "disease_tag": "Asthma",
+    "dialogs": [
+    {
+        "patient": "Hi Doctor, I am having Shortness of breath and Cough",
+        "doctor": "Is it? Then do you experience Hemoptysis?"
+    },
+
+    {
+        "patient": "No, I never had anything like that.",
+        "doctor": "Is it? Then do you experience Fever?"
+    },
+
+    {
+        "patient": "No, I don't have that",
+        "doctor": "Based on the symptoms that the patient is experiencing, it is likely that the patient has Asthma or Pneumonia."
+    }
+    ]
+
+}

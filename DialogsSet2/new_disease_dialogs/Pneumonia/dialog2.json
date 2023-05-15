@@ -1,0 +1,36 @@
+{
+    "disease_tag": "Pneumonia",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Chest tightness and shortness of breath",
+            "doctor": "Is it? Then do you experience Stuffy nose?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Is it? Then do you experience Hoarse?"
+        },
+
+        {
+            "patient": "Not that I know of",
+            "doctor": "What about Chills?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Oh, do you have any Cough?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "Oh, do you have any Fever?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "Well, you could have Pneumonia then."
+        }
+
+    ]
+
+}

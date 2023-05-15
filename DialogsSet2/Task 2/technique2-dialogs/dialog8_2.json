@@ -1,0 +1,32 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Burning sensation behind the breastbone and Bloating, Doctor: ?",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output_with_improvement": [
+        {
+            "patient": "I have been feeling Burning sensation behind the breastbone and Bloating.",
+            "doctor": "Let's think step by step. You are feeling burning sensation behind the breastbone and bloating. But do you have acid reflux?"
+        },
+
+        {
+            "patient": "Yes Doctor, I am feeling that sometimes.",
+            "doctor": "Let's think step by step. You are feeling burning sensation behind the breastbone, bloating, and have acid reflux. Are you feeling any other symptom?"
+        },
+
+        {
+            "patient": "I get heartburn sometimes.",
+            "doctor": "Let's think step by step. You are feeling burning sensation behind the breastbone, bloating, have acid reflux, and sometimes get heartburn. Are you feeling any other symptom?"
+        },
+
+        {
+            "patient": "I also get nausea sometimes.",
+            "doctor": "It's sounds like you might have GERD."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. ",
+    "improvement": "GPT3 handles multiple symptoms in a single sentence and processes each one of them to go ahead and give a diagnosis. It even came up with simulating 2 other symptoms on its own. But the final diagnosis was GERD and not Esophagitis."
+
+}

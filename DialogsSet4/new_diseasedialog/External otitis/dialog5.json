@@ -1,0 +1,17 @@
+{
+    "disease_tag": "External otitis",
+    "dialogs": [
+        {
+            "patient": "I having fever and ear pain .",
+            "doctor": "Is there any swelling in your ear?"
+        },
+        {
+            "patient": " I haven't noticed so, I might have it.",
+            "doctor": "Oh! How long have you been suffering with fever?"
+        },
+        {
+            "patient": "It's been a few days now. ",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is likely that the patient has external otitis."
+        }
+     ]
+}

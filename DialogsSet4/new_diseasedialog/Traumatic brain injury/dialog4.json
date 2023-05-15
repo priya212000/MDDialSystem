@@ -1,0 +1,25 @@
+{
+    "disease_tag": "Traumatic brain injury",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Head trauma pain.",
+            "doctor": "Is it? Then do you experience Fever?"
+        },
+        {
+            "patient": "Not that I know of",
+            "doctor": "What about loss in movement coordination?"
+        },
+        {
+            "patient": "I have them often. ",
+            "doctor": "Did you experience any changes in your behavior or mood?"
+        },
+        {
+            "patient": "Yes, I've been feeling down and out lately.",
+            "doctor": "Any changes in your sleep patterns?"
+        },
+        {
+            "patient": "Yes, I've been having trouble sleeping",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is likely that the patient has suffered a traumatic brain injury."
+        }
+     ]
+}

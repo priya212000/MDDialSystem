@@ -1,0 +1,31 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Expectoration and Chest tightness, Doctor: ?",
+            "doctor": "Oh, do you have any Vomiting?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "In that case, do you have any Fever?"
+        },
+        {
+            "patient": "No, I never had anything like that., Doctor: ?",
+            "doctor": "In that case, do you have any Nausea?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Runny nose?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+            "doctor": "This could probably be Esophagitis."
+        }
+    ],
+    "gpt3_output": [
+        {
+            "patient": "I have been feeling Expectoration and Chest tightness.",
+            "doctor": "If you have been feeling expectoration and chest tightness, it is possible that you may have a respiratory infection or a condition such as asthma. I recommend that you see a doctor as soon as possible for a proper diagnosis."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. Also, asks to go check with a doctor after giving diagnosis as a doctor."
+}

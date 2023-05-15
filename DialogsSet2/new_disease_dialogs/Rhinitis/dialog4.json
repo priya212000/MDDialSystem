@@ -1,0 +1,83 @@
+{
+    "disease_tag": "Rhinitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Pharynx discomfort",
+            "doctor": "What about Stomach ache?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Is it? Then do you experience Diarrhea?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "What about Fever?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "What about Rash?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "What about Vomiting?"
+        },
+
+        {
+            "patient": "Well not in my knowledge",
+            "doctor": "Are you having any Headache?"
+        },
+
+        {
+            "patient": "Yes, I am having a headache from last night.",
+            "doctor": "Is it? Then do you experience Runny nose?"
+        },
+
+        {
+            "patient": "Yes, sometimes",
+            "doctor": "What about Itchy nose?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "What about Watery eyes?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "What about Itchy eyes?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "Are you having any coughing?"
+        },
+
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "Are you having any difficulty in breathing?"
+        },
+
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "What about fatigue?"
+        },
+
+        {
+            "patient": "Well yes, I am feeling fatigue from last night.",
+            "doctor": "Are you having any body aches?"
+        },
+
+        {
+            "patient": "No, I don't have that.",
+            "doctor": "Based on the symptoms that you have mentioned, it is most likely that you have Asthma."
+        }
+
+
+
+    ]
+
+}

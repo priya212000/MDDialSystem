@@ -1,0 +1,15 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "I have Nausea and Diarrhea.",
+            "doctor": "Ok, this means you might be having Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+        {
+            "patient":"I have Nausea and Diarrhea",
+            "doctor":"It sounds like you may be suffering from a stomach virus or food poisoning. I recommend that you drink plenty of fluids and rest until your symptoms improve. If your diarrhea is severe or persists for more than a few days, you should see a doctor for further evaluation."
+        }
+    ],
+    "issue":"GPT3 is able to directly identify the disease if multiple symptoms are provided in the prompt. It also further steps that the patient needs to take."
+ }

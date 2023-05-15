@@ -1,0 +1,15 @@
+{
+    "original_dialogue": [
+        {
+            "patient": "I have been feeling Burning sensation behind the breastbone and Bloating, Doctor: ?",
+            "doctor": "I believe you are having Esophagitis."
+        }
+    ],
+    "gpt3_output": [
+        {
+            "patient": "I have been feeling Burning sensation behind the breastbone and Bloating.",
+            "doctor": "The patient might have GERD (Gastroesophageal reflux disease)."
+        }
+    ],
+    "issue": "GPT3 abruptly gives a diagnosis without asking proper questions to the patient. "
+}

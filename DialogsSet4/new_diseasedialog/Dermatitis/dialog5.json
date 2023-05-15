@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Dermatitis",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Itching and cough.",
+            "doctor": "Is it? Then do you experience Chest tightness"
+        },
+        {
+            "patient": "No, I never had anything like that",
+            "doctor": "In that case, do you have any Difficulty breathing?"
+        },
+        {
+            "patient": "No, I don't think so",
+            "doctor": "So you have problem only with the skin?"
+        },
+        {
+            "patient": "Yes, it's just the skin.",
+            "doctor": "Based on the symptoms, I think you might have Dermatitis."
+        }
+     ]
+}

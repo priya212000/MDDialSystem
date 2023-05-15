@@ -1,0 +1,33 @@
+
+
+{
+   "dialogs": [
+            {
+                "patient": "I have been feeling Pain behind the breastbone, Doctor: ?",
+                "doctor": "Is it? Then do you experience Hard to swallow?"
+            },
+            {
+                "patient": "Well not in my knowledge, Doctor: ?",
+                "doctor": "In that case, do you have any Stomach ache?"
+            },
+            {
+                "patient": "No, I don't have that, Doctor: ?",
+                "doctor": "What about Chest tightness?"
+            },
+            {
+                "patient": "Yes Doctor, I am feeling that as well, Doctor: ?",
+                "doctor": "Is it? Then do you experience Burning sensation behind the breastbone?"
+            },
+            {
+                "patient": "Yes most of the times, Doctor: ?",
+                "doctor": "I believe you are having Esophagitis."
+            }
+        ]
+    ,"gpt3_output": [
+        {
+            "patient": "Recently, I am experiencing Acid reflux",
+            "doctor": "Acid reflux is a condition in which stomach acid flows back up into the esophagus, causing a burning sensation in the chest or throat. This condition can be caused by a number of factors, such as eating spicy or fatty foods, lying down after eating, or wearing tight clothing that puts pressure on the stomach. Treatment for acid reflux typically includes lifestyle changes, such as avoiding trigger foods, eating smaller meals, and avoiding eating before bedtime. In some cases, medication may also be necessary to manage the symptoms of acid reflux."}
+
+    ],
+    "issue": "The GPT3 doesn't ask further questions that will help diagnose the disease and gives an output after the first prompt itself. The long explanation of an incorrect diagnosis is also not necessary."
+}

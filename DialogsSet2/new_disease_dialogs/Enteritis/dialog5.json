@@ -1,0 +1,22 @@
+{
+    "disease_tag": "Entiritis",
+    "dialogs": [
+        {
+            "patient": "I have been feeling Stomach ache and Defecate",
+            "doctor": "In that case, do you have any Night sweats?"
+        },
+
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "In that case, do you have any Fever?"
+        },
+
+        {
+            "patient": "No, I don't have that",
+            "doctor": "It is most likely that the patient has enteritis"
+        }
+
+
+    ]
+
+}

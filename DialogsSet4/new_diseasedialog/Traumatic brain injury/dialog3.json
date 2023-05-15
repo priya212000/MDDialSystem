@@ -1,0 +1,21 @@
+{
+    "disease_tag": "Traumatic brain injury",
+    "dialogs": [
+        {
+            "patient": "Hi Doctor, I am having Fever.",
+            "doctor": "Oh, do you have any Nausea?"
+        },
+        {
+            "patient": "Sometimes.",
+            "doctor": "What about Consciousness disorder?"
+        },
+        {
+            "patient": "what does that mean?",
+            "doctor": "Consciousness disorder refers to a change in a person's usual state of wakefulness or awareness. This can include feeling drowsy or confused, being unable to think clearly, or losing consciousness altogether."
+        },
+        {
+            "patient": "I do have that.",
+            "doctor": "Based on the symptoms that the patient is experiencing, it is likely that they have suffered a traumatic brain injury."
+        }
+     ]
+}

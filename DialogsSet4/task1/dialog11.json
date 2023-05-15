@@ -1,0 +1,35 @@
+{
+    "original_dialogue":[
+        {
+            "patient": "I have been feeling Acid reflux and Cough, Doctor: ?",
+            "doctor": "In that case, do you have any Vomiting?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "What about Nausea?"
+        },
+        {
+            "patient": "Not that I know of, Doctor: ?",
+            "doctor": "Oh, do you have any Fever?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Oh, do you have any Stomach ache?"
+        },
+        {
+            "patient": "No, I don't have that, Doctor: ?",
+            "doctor": "Oh, do you have any Pain behind the breastbone?"
+        },
+        {
+            "patient": "I am experiencing that sometimes, Doctor: ?",
+            "doctor": "This could probably be Esophagitis."
+        }
+    ],
+    "gpt3_output":[
+       {
+            "patient":"I have been feeling Acid reflux and Cough,",
+            "doctor":"The patient could have gastroesophageal reflux disease (GERD), which is a condition where stomach acid flows back up into the esophagus. This can cause symptoms such as heartburn, chest pain, and coughing."
+       }
+    ],
+    "issue":"GPT3 give the diagnosis just after the first prompt without asking specific questions"
+ }
