@@ -124,7 +124,7 @@ Use this to save your JSON file - `json.dumps(your_json_string, indent=4, ensure
 Use this to save your JSON file - `json.dumps(your_json_string, indent=4, ensure_ascii=False)`   
 
 
-#### Task 3 (Tentative Deadline - Nov. 13, 2022)
+#### Task 3 
 
 1. We want you to explore prompting techniques that you developed in Task 2 with different models. We want to try below models:
 
