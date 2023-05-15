@@ -14,7 +14,7 @@ In MDDial dataset, given data samples are similar as generated dialogue in above
 
 ## Steps to Perform a Task
 
-#### Task 1 (Tentative Deadline - Oct. 21, 2022)
+#### Task 1 
 
 1. Get 5 data samples (i.e., 5 dialogues) from MDDial (See the dataset in [`data/`](data) folder.), read them and try to understand the goal of the dataset. Use `test.json` file to get original dialogue. Everyone should select different dialogues from test set (You should coordinate among yourselves).
 2. Use the free version of GPT3 and try these 5 dialogues with GPT3.
@@ -61,7 +61,7 @@ In MDDial dataset, given data samples are similar as generated dialogue in above
 
 Use this to save your JSON file - `json.dumps(your_json_string, indent=4, ensure_ascii=False)`   
 
-#### Task 2 (Tentative Deadline - Oct. 31, 2022)
+#### Task 2 
 
 1. Now use the examples that you selected in Task 1 and see the issues that you have got.
 2. Choose any 2 prompting techniques according to the issue that you want to solve. For example, "Chain of Thought" or "Least-to-Most". You can go and search for literature and choose techniques from them.
@@ -155,7 +155,6 @@ Use this to save your JSON file - `json.dumps(your_json_string, indent=4, ensure
 2. [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](https://arxiv.org/abs/2205.10625)
 3. [DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](https://arxiv.org/abs/1911.00536)
 
-Note: If you do not have any basic idea about prompting, then read Sections 2,4,6 and 7 from [Pre-train, Prompt, and Predict](https://arxiv.org/abs/2107.13586)
 
 ## Data
 
